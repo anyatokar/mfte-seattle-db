@@ -2,6 +2,7 @@
   {
     "buildingName": "Alder Flats",
     "phone": "206-408-2176",
+    "phone2": "",
     "residentialTargetedArea": "12th Avenue",
     "totalRestrictedUnits": 19,
     "sedu": 0,
@@ -21,6 +22,7 @@
   {
     "buildingName": "Anthem",
     "phone": "877-204-5282",
+    "phone2": "",
     "residentialTargetedArea": "12th Avenue",
     "totalRestrictedUnits": 24,
     "sedu": 0,
@@ -40,6 +42,7 @@
   {
     "buildingName": "Decibel",
     "phone": "206-823-1496",
+    "phone2": "",
     "residentialTargetedArea": "12th Avenue",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -59,6 +62,7 @@
   {
     "buildingName": "Denny 18",
     "phone": "425-780-0648",
+    "phone2": "",
     "residentialTargetedArea": "12th Avenue",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -78,6 +82,7 @@
   {
     "buildingName": "Reverb",
     "phone": "206-624-7720",
+    "phone2": "",
     "residentialTargetedArea": "12th Avenue",
     "totalRestrictedUnits": 17,
     "sedu": 0,
@@ -97,6 +102,7 @@
   {
     "buildingName": "Soleil",
     "phone": "818-259-1752",
+    "phone2": "",
     "residentialTargetedArea": "12th Avenue",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -116,6 +122,7 @@
   {
     "buildingName": "Terrazza aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "12th Avenue",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -135,6 +142,7 @@
   {
     "buildingName": "Zig Apartments",
     "phone": "206-397-0545",
+    "phone2": "",
     "residentialTargetedArea": "12th Avenue",
     "totalRestrictedUnits": 34,
     "sedu": 0,
@@ -154,6 +162,7 @@
   {
     "buildingName": "East Union",
     "phone": "206-829-5942",
+    "phone2": "",
     "residentialTargetedArea": "23rd  & Union-Jackson",
     "totalRestrictedUnits": 37,
     "sedu": 0,
@@ -173,6 +182,7 @@
   {
     "buildingName": "Modera Jackson",
     "phone": "888-657-7681",
+    "phone2": "",
     "residentialTargetedArea": "23rd  & Union-Jackson",
     "totalRestrictedUnits": 31,
     "sedu": 0,
@@ -192,6 +202,7 @@
   {
     "buildingName": "1611 S. Weller",
     "phone": "206-726-6230 ",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union- Jackson",
     "totalRestrictedUnits": 2,
     "sedu": 0,
@@ -211,6 +222,7 @@
   {
     "buildingName": "Madison Two-O",
     "phone": "206-478-3019",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union- Jackson",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -230,6 +242,7 @@
   {
     "buildingName": "Twenty20 MAD",
     "phone": "206-456-2608",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union- Jackson",
     "totalRestrictedUnits": 32,
     "sedu": 0,
@@ -249,6 +262,7 @@
   {
     "buildingName": "1410 S King St",
     "phone": "206-954-3555",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 3,
     "sedu": 0,
@@ -268,6 +282,7 @@
   {
     "buildingName": "Central",
     "phone": "206-709-6953",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 19,
     "sedu": 0,
@@ -287,6 +302,7 @@
   {
     "buildingName": "Jackson Apartments",
     "phone": "206-322-1139",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 107,
     "sedu": 0,
@@ -306,6 +322,7 @@
   {
     "buildingName": "Jackson Street Apartments",
     "phone": "206-492-9276",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -325,6 +342,7 @@
   {
     "buildingName": "Muir Apartments",
     "phone": "206-899-0090",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -344,6 +362,7 @@
   {
     "buildingName": "Pratt Park",
     "phone": "206-866-2198",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 50,
     "sedu": 0,
@@ -363,6 +382,7 @@
   {
     "buildingName": "Roost",
     "phone": "206-735-1509",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -382,6 +402,7 @@
   {
     "buildingName": "Solana aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -401,6 +422,7 @@
   {
     "buildingName": "Stencil Apartments",
     "phone": "206-709-6947",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -420,6 +442,7 @@
   {
     "buildingName": "Element 42",
     "phone": "855-790-1103",
+    "phone2": "",
     "residentialTargetedArea": "Admiral",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -439,6 +462,7 @@
   {
     "buildingName": "Springline",
     "phone": "206-347-3641",
+    "phone2": "",
     "residentialTargetedArea": "Admiral",
     "totalRestrictedUnits": 30,
     "sedu": 0,
@@ -458,6 +482,7 @@
   {
     "buildingName": "Bode Greenview",
     "phone": "206-202-8601",
+    "phone2": "",
     "residentialTargetedArea": "Aurora Licton Springs",
     "totalRestrictedUnits": 17,
     "sedu": 0,
@@ -477,6 +502,7 @@
   {
     "buildingName": "Cubix ",
     "phone": "206-259-5909",
+    "phone2": "",
     "residentialTargetedArea": "Aurora Licton Springs",
     "totalRestrictedUnits": 6,
     "sedu": 0,
@@ -496,6 +522,7 @@
   {
     "buildingName": "Cubix 95th St.",
     "phone": "206-259-5909",
+    "phone2": "",
     "residentialTargetedArea": "Aurora Licton Springs",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -515,6 +542,7 @@
   {
     "buildingName": "Cubix Park North",
     "phone": "206-259-5909",
+    "phone2": "",
     "residentialTargetedArea": "Aurora Licton Springs",
     "totalRestrictedUnits": 19,
     "sedu": 19,
@@ -534,6 +562,7 @@
   {
     "buildingName": "Galloway",
     "phone": "206-408-2508",
+    "phone2": "",
     "residentialTargetedArea": "Aurora Licton Springs",
     "totalRestrictedUnits": 2,
     "sedu": 0,
@@ -553,6 +582,7 @@
   {
     "buildingName": "Midvale 4",
     "phone": "206-268-0599",
+    "phone2": "",
     "residentialTargetedArea": "Aurora Licton Springs",
     "totalRestrictedUnits": 1,
     "sedu": 0,
@@ -572,6 +602,7 @@
   {
     "buildingName": "Midtown Apartments",
     "phone": "206-659-6030",
+    "phone2": "",
     "residentialTargetedArea": "Aurora Licton Springs",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -591,6 +622,7 @@
   {
     "buildingName": "1715 Apartments",
     "phone": "206-403-1467",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -610,6 +642,7 @@
   {
     "buildingName": "Avalon Ballard",
     "phone": "360-295-9401",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 53,
     "sedu": 0,
@@ -629,6 +662,7 @@
   {
     "buildingName": "Ballard on the Park",
     "phone": "206-899-0105",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 54,
     "sedu": 0,
@@ -648,6 +682,7 @@
   {
     "buildingName": "Ballard Public Lofts",
     "phone": "844-379-8406",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 20,
     "sedu": 0,
@@ -667,6 +702,7 @@
   {
     "buildingName": "Bespoke Ballard",
     "phone": "206-403-1467",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -686,6 +722,7 @@
   {
     "buildingName": "Commons at Ballard",
     "phone": "206-963-5499",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 17,
     "sedu": 0,
@@ -705,6 +742,7 @@
   {
     "buildingName": "Grove Ballard",
     "phone": "206.279-6480",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 16,
     "sedu": 6,
@@ -724,6 +762,7 @@
   {
     "buildingName": "Keelson",
     "phone": "206-207-0180",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 21,
     "sedu": 0,
@@ -743,6 +782,7 @@
   {
     "buildingName": "Koi",
     "phone": "833-361-1497",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 31,
     "sedu": 0,
@@ -762,6 +802,7 @@
   {
     "buildingName": "Lillehammer Ballard",
     "phone": "206-483-2684",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 19,
     "sedu": 0,
@@ -781,6 +822,7 @@
   {
     "buildingName": "Solo Lofts ",
     "phone": "206-972-7107",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 1,
     "sedu": 0,
@@ -800,6 +842,7 @@
   {
     "buildingName": "Valdok",
     "phone": "833-334-0909",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 34,
     "sedu": 0,
@@ -819,6 +862,7 @@
   {
     "buildingName": "Valdok II",
     "phone": "833-334-0909",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 30,
     "sedu": 0,
@@ -838,6 +882,7 @@
   {
     "buildingName": "Wilcox",
     "phone": "206-701-5999",
+    "phone2": "",
     "residentialTargetedArea": "Ballard",
     "totalRestrictedUnits": 24,
     "sedu": 0,
@@ -857,6 +902,7 @@
   {
     "buildingName": "Reverie",
     "phone": "206-237-5299",
+    "phone2": "",
     "residentialTargetedArea": "Beacon Hill",
     "totalRestrictedUnits": 6,
     "sedu": 3,
@@ -876,6 +922,7 @@
   {
     "buildingName": "Elara",
     "phone": "833-359-8504",
+    "phone2": "",
     "residentialTargetedArea": "Belltown",
     "totalRestrictedUnits": 29,
     "sedu": 0,
@@ -895,6 +942,7 @@
   {
     "buildingName": "Joseph Arnold Lofts",
     "phone": "206-859-4500",
+    "phone2": "",
     "residentialTargetedArea": "Belltown",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -914,6 +962,7 @@
   {
     "buildingName": "Minnie Flats",
     "phone": "425-519-9749",
+    "phone2": "",
     "residentialTargetedArea": "Belltown",
     "totalRestrictedUnits": 17,
     "sedu": 0,
@@ -933,6 +982,7 @@
   {
     "buildingName": "Walton Lofts",
     "phone": "206-792-1203",
+    "phone2": "",
     "residentialTargetedArea": "Belltown",
     "totalRestrictedUnits": 28,
     "sedu": 0,
@@ -952,6 +1002,7 @@
   {
     "buildingName": "101 Broadway",
     "phone": "206-325-1010",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -971,6 +1022,7 @@
   {
     "buildingName": "741 Harvard",
     "phone": "206-992-3403",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -990,6 +1042,7 @@
   {
     "buildingName": "Alturra aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -1009,6 +1062,7 @@
   {
     "buildingName": "BASE Capitol Hill",
     "phone": "833-200-9169",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -1028,6 +1082,7 @@
   {
     "buildingName": "Broadway Building",
     "phone": "206-323-1500",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 19,
     "sedu": 0,
@@ -1047,6 +1102,7 @@
   {
     "buildingName": "Capitol Core",
     "phone": "206-577-0589",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 2,
     "sedu": 0,
@@ -1066,6 +1122,7 @@
   {
     "buildingName": "Capitol Hill Station - Site B South",
     "phone": "206-707-9717",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -1085,6 +1142,7 @@
   {
     "buildingName": "Capitol Hill Station - Site C",
     "phone": "206-707-9717",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 21,
     "sedu": 0,
@@ -1104,6 +1162,7 @@
   {
     "buildingName": "Centro aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -1123,6 +1182,7 @@
   {
     "buildingName": "Citizen",
     "phone": "206-326-1922",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 22,
     "sedu": 0,
@@ -1140,19 +1200,40 @@
     "zip": 98122
   },
   {
-    "buildingName": "Common Anderson",
+    "buildingName": "Common Anderson - 1",
     "phone": "206-323-1771",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
-    "totalRestrictedUnits": 19,
+    "totalRestrictedUnits": 11,
     "sedu": 0,
-    "studioUnits": 19,
+    "studioUnits": 11,
     "oneBedroomUnits": 0,
     "twoBedroomUnits": 0,
     "threePlusBedroomUnits": 0,
     "urlForBuilding": "https://www.common.com/anderson/",
     "lat": 47.618038,
     "lng": -122.316583,
-    "streetNum": "1806/1812",
+    "streetNum": "1812",
+    "street": "12th Ave",
+    "city": "Seattle",
+    "state": "WA",
+    "zip": 98122
+  },
+  {
+    "buildingName": "Common Anderson - 2",
+    "phone": "206-323-1772",
+    "phone2": "",
+    "residentialTargetedArea": "Capitol Hill",
+    "totalRestrictedUnits": 8,
+    "sedu": 0,
+    "studioUnits": 8,
+    "oneBedroomUnits": 0,
+    "twoBedroomUnits": 0,
+    "threePlusBedroomUnits": 0,
+    "urlForBuilding": "https://www.common.com/anderson/",
+    "lat": 47.618038,
+    "lng": -122.316583,
+    "streetNum": "1806",
     "street": "12th Ave",
     "city": "Seattle",
     "state": "WA",
@@ -1161,6 +1242,7 @@
   {
     "buildingName": "Common Capitol",
     "phone": "206-323-1771",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 11,
     "sedu": 0,
@@ -1180,6 +1262,7 @@
   {
     "buildingName": "Cortena aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 7,
     "sedu": 7,
@@ -1199,6 +1282,7 @@
   {
     "buildingName": "Craft Apartments ",
     "phone": "206-348-6259",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -1218,6 +1302,7 @@
   {
     "buildingName": "Ilaria aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 12,
     "sedu": 12,
@@ -1237,6 +1322,7 @@
   {
     "buildingName": "Jack Apartments",
     "phone": "206-531-2028",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -1245,8 +1331,8 @@
     "twoBedroomUnits": 3,
     "threePlusBedroomUnits": 0,
     "urlForBuilding": "https://www.jackapts.com/",
-    "lat": 47.608479,
-    "lng": -122.339963,
+    "lat": 47.61366,
+    "lng": -122.31853,
     "streetNum": "1427",
     "street": "1st Ave",
     "city": "Seattle",
@@ -1256,6 +1342,7 @@
   {
     "buildingName": "Jet on Boylston",
     "phone": "206-466-2375",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 11,
     "sedu": 0,
@@ -1275,6 +1362,7 @@
   {
     "buildingName": "Kulle Urban Living",
     "phone": "206-403-1467",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 3,
     "sedu": 0,
@@ -1294,6 +1382,7 @@
   {
     "buildingName": "Lexicon",
     "phone": "206-325-7000",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -1313,6 +1402,7 @@
   {
     "buildingName": "LIV at East John",
     "phone": "513-443-4716",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -1332,6 +1422,7 @@
   {
     "buildingName": "Local 418 Apartments",
     "phone": "206-334-6763",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -1351,6 +1442,7 @@
   {
     "buildingName": "Local 422 Apartments",
     "phone": "206-334-6763",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -1370,6 +1462,7 @@
   {
     "buildingName": "Lyric",
     "phone": "206-209-0510",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 47,
     "sedu": 0,
@@ -1389,6 +1482,7 @@
   {
     "buildingName": "Mad Flats ",
     "phone": "425-519-9732",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 11,
     "sedu": 0,
@@ -1408,6 +1502,7 @@
   {
     "buildingName": "Modera Broadway - South Building",
     "phone": "206-580-0580",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 17,
     "sedu": 0,
@@ -1427,6 +1522,7 @@
   {
     "buildingName": "OneOne6",
     "phone": "833-200-9169",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -1446,6 +1542,7 @@
   {
     "buildingName": "Patent 523",
     "phone": "206-483-2165",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 59,
     "sedu": 0,
@@ -1465,6 +1562,7 @@
   {
     "buildingName": "Ramiro's Place",
     "phone": "833-200-9169",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 5,
     "sedu": 0,
@@ -1484,6 +1582,7 @@
   {
     "buildingName": "Rubix",
     "phone": "206-467-4846",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -1503,6 +1602,7 @@
   {
     "buildingName": "Ruth Court",
     "phone": "844-494-2482",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 14,
     "sedu": 0,
@@ -1522,6 +1622,7 @@
   {
     "buildingName": "Session Apartments ",
     "phone": "206-538-2921",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 19,
     "sedu": 0,
@@ -1541,6 +1642,7 @@
   {
     "buildingName": "Seventeen Fifteen",
     "phone": "406-219-7397",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -1560,6 +1662,7 @@
   {
     "buildingName": "Solis",
     "phone": "503-816-0211",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -1579,6 +1682,7 @@
   {
     "buildingName": "Stream 403",
     "phone": "206-325-5899",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -1598,6 +1702,7 @@
   {
     "buildingName": "Stream Belmont",
     "phone": "206-325-3663",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 14,
     "sedu": 0,
@@ -1617,6 +1722,7 @@
   {
     "buildingName": "Stream Fifteen",
     "phone": "206-999-2853",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -1636,6 +1742,7 @@
   {
     "buildingName": "TOD Apartments",
     "phone": "833-200-9169",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -1655,6 +1762,7 @@
   {
     "buildingName": "Yardhouse",
     "phone": "206-623-5504",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -1674,6 +1782,7 @@
   {
     "buildingName": "Zephyr",
     "phone": "206-322-9010",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill",
     "totalRestrictedUnits": 2,
     "sedu": 0,
@@ -1693,6 +1802,7 @@
   {
     "buildingName": "Avant Apartments",
     "phone": "206-388-3946",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill/ Eastlake",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -1712,6 +1822,7 @@
   {
     "buildingName": "Chloe on Madison",
     "phone": "206-347-3495",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill/ Eastlake",
     "totalRestrictedUnits": 28,
     "sedu": 0,
@@ -1731,6 +1842,7 @@
   {
     "buildingName": "Robin's Nest",
     "phone": "206-237-5658",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill/ Eastlake",
     "totalRestrictedUnits": 13,
     "sedu": 0,
@@ -1750,6 +1862,7 @@
   {
     "buildingName": "Larson Building",
     "phone": "206-486-5861",
+    "phone2": "",
     "residentialTargetedArea": "Capitol Hill/Eastlake",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -1769,6 +1882,7 @@
   {
     "buildingName": "Sienna Apartments",
     "phone": "253-334-4080",
+    "phone2": "",
     "residentialTargetedArea": "Central District",
     "totalRestrictedUnits": 8,
     "sedu": 2,
@@ -1788,6 +1902,7 @@
   {
     "buildingName": "Liberty Bank Building",
     "phone": "206-204-8753",
+    "phone2": "",
     "residentialTargetedArea": "Central District",
     "totalRestrictedUnits": 23,
     "sedu": 0,
@@ -1807,6 +1922,7 @@
   {
     "buildingName": "Valley Apartments",
     "phone": "206-325-0422",
+    "phone2": "",
     "residentialTargetedArea": "Central District",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -1826,6 +1942,7 @@
   {
     "buildingName": "An Lạc",
     "phone": "206-443-9935",
+    "phone2": "",
     "residentialTargetedArea": "Chinatown/ID",
     "totalRestrictedUnits": 14,
     "sedu": 0,
@@ -1845,6 +1962,7 @@
   {
     "buildingName": "Ascona Apartments",
     "phone": "206-652-0744",
+    "phone2": "",
     "residentialTargetedArea": "Chinatown/ID",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -1864,6 +1982,7 @@
   {
     "buildingName": "Hana Apartments",
     "phone": "206-222-7097",
+    "phone2": "",
     "residentialTargetedArea": "Chinatown/ID",
     "totalRestrictedUnits": 160,
     "sedu": 0,
@@ -1883,6 +2002,7 @@
   {
     "buildingName": "Icon Apartments",
     "phone": "206-453-6254",
+    "phone2": "",
     "residentialTargetedArea": "Chinatown/ID",
     "totalRestrictedUnits": 24,
     "sedu": 0,
@@ -1902,6 +2022,7 @@
   {
     "buildingName": "Louisa Hotel Apartments",
     "phone": "206-809-4407",
+    "phone2": "",
     "residentialTargetedArea": "Chinatown/ID",
     "totalRestrictedUnits": 22,
     "sedu": 10,
@@ -1921,6 +2042,7 @@
   {
     "buildingName": "Thai Binh Apartments",
     "phone": "206-257-2717",
+    "phone2": "",
     "residentialTargetedArea": "Chinatown/ID",
     "totalRestrictedUnits": 50,
     "sedu": 0,
@@ -1940,6 +2062,7 @@
   {
     "buildingName": "Angeline",
     "phone": "206-928-6376",
+    "phone2": "",
     "residentialTargetedArea": "Columbia City",
     "totalRestrictedUnits": 39,
     "sedu": 0,
@@ -1959,6 +2082,7 @@
   {
     "buildingName": "CityLine",
     "phone": "206-207-0452",
+    "phone2": "",
     "residentialTargetedArea": "Columbia City",
     "totalRestrictedUnits": 49,
     "sedu": 0,
@@ -1978,6 +2102,7 @@
   {
     "buildingName": "Cityline (Phase II)",
     "phone": "206-207-0452",
+    "phone2": "",
     "residentialTargetedArea": "Columbia City",
     "totalRestrictedUnits": 31,
     "sedu": 0,
@@ -1997,6 +2122,7 @@
   {
     "buildingName": "Greenhouse",
     "phone": "844-330-3151",
+    "phone2": "",
     "residentialTargetedArea": "Columbia City",
     "totalRestrictedUnits": 25,
     "sedu": 0,
@@ -2016,6 +2142,7 @@
   {
     "buildingName": "Parla",
     "phone": "206-782-5911",
+    "phone2": "",
     "residentialTargetedArea": "Crown Hill",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -2035,6 +2162,7 @@
   {
     "buildingName": "Livingstone",
     "phone": "206-309-4732",
+    "phone2": "",
     "residentialTargetedArea": "Delridge/Westwood Highland Pk.",
     "totalRestrictedUnits": 7,
     "sedu": 3,
@@ -2054,6 +2182,7 @@
   {
     "buildingName": "Youngstown Flats",
     "phone": "206-408-2192",
+    "phone2": "",
     "residentialTargetedArea": "Delridge/Westwood Highland Pk.",
     "totalRestrictedUnits": 39,
     "sedu": 0,
@@ -2073,6 +2202,7 @@
   {
     "buildingName": "Westward ",
     "phone": "206-437-0828",
+    "phone2": "",
     "residentialTargetedArea": "Delridge/Westwood Highland Pk.",
     "totalRestrictedUnits": 4,
     "sedu": 0,
@@ -2092,6 +2222,7 @@
   {
     "buildingName": "9th & Pine Apartments",
     "phone": "206-623-1122",
+    "phone2": "",
     "residentialTargetedArea": "Denny Triangle",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -2111,6 +2242,7 @@
   {
     "buildingName": "Borealis",
     "phone": "206-202-5060",
+    "phone2": "",
     "residentialTargetedArea": "Denny Triangle",
     "totalRestrictedUnits": 50,
     "sedu": 0,
@@ -2130,6 +2262,7 @@
   {
     "buildingName": "Axle Apartments ",
     "phone": "206-203-8090",
+    "phone2": "",
     "residentialTargetedArea": "Dravus",
     "totalRestrictedUnits": 46,
     "sedu": 0,
@@ -2149,6 +2282,7 @@
   {
     "buildingName": "Slate Apartments",
     "phone": "206-397-3341",
+    "phone2": "",
     "residentialTargetedArea": "Dravus",
     "totalRestrictedUnits": 48,
     "sedu": 0,
@@ -2168,6 +2302,7 @@
   {
     "buildingName": "Common Rogers",
     "phone": "844-612-6997",
+    "phone2": "",
     "residentialTargetedArea": "Eastlake",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -2187,6 +2322,7 @@
   {
     "buildingName": "East Howe Steps",
     "phone": "206-279-6632",
+    "phone2": "",
     "residentialTargetedArea": "Eastlake",
     "totalRestrictedUnits": 19,
     "sedu": 0,
@@ -2206,6 +2342,7 @@
   {
     "buildingName": "Eastlake Flats",
     "phone": "206-408-2172",
+    "phone2": "",
     "residentialTargetedArea": "Eastlake",
     "totalRestrictedUnits": 24,
     "sedu": 0,
@@ -2225,6 +2362,7 @@
   {
     "buildingName": "Equinox Apts",
     "phone": "206-309-5146",
+    "phone2": "",
     "residentialTargetedArea": "Eastlake",
     "totalRestrictedUnits": 41,
     "sedu": 0,
@@ -2244,6 +2382,7 @@
   {
     "buildingName": "Waterton Apartments",
     "phone": "206-673-7170",
+    "phone2": "",
     "residentialTargetedArea": "Eastlake",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -2263,6 +2402,7 @@
   {
     "buildingName": "Barclay Broadway",
     "phone": "206-588-8600",
+    "phone2": "",
     "residentialTargetedArea": "First Hill",
     "totalRestrictedUnits": 24,
     "sedu": 0,
@@ -2281,7 +2421,8 @@
   },
   {
     "buildingName": "Batik Apartments ",
-    "phone": "(206) 460-1401",
+    "phone": "206-460-1401",
+    "phone2": "",
     "residentialTargetedArea": "First Hill",
     "totalRestrictedUnits": 39,
     "sedu": 0,
@@ -2301,6 +2442,7 @@
   {
     "buildingName": "Broadstone Lexington",
     "phone": "866-646-6550",
+    "phone2": "",
     "residentialTargetedArea": "First Hill",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -2320,6 +2462,7 @@
   {
     "buildingName": "Cypress Apartments",
     "phone": "833-333-5706",
+    "phone2": "",
     "residentialTargetedArea": "First Hill",
     "totalRestrictedUnits": 48,
     "sedu": 0,
@@ -2339,6 +2482,7 @@
   {
     "buildingName": "Danforth",
     "phone": "206-324-1000",
+    "phone2": "",
     "residentialTargetedArea": "First Hill",
     "totalRestrictedUnits": 53,
     "sedu": 0,
@@ -2358,6 +2502,7 @@
   {
     "buildingName": "Emerson Seattle",
     "phone": "206-385-4755",
+    "phone2": "",
     "residentialTargetedArea": "First Hill",
     "totalRestrictedUnits": 58,
     "sedu": 0,
@@ -2377,6 +2522,7 @@
   {
     "buildingName": "Perry",
     "phone": "206-971-2053",
+    "phone2": "",
     "residentialTargetedArea": "First Hill",
     "totalRestrictedUnits": 42,
     "sedu": 0,
@@ -2396,6 +2542,7 @@
   {
     "buildingName": "Pine + Minor",
     "phone": "206-899-0373",
+    "phone2": "",
     "residentialTargetedArea": "First Hill",
     "totalRestrictedUnits": 23,
     "sedu": 0,
@@ -2415,6 +2562,7 @@
   {
     "buildingName": "Lime Studios",
     "phone": "206-420-1907",
+    "phone2": "",
     "residentialTargetedArea": "Fremont",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -2434,6 +2582,7 @@
   {
     "buildingName": "Positano",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "Fremont",
     "totalRestrictedUnits": 14,
     "sedu": 0,
@@ -2453,6 +2602,7 @@
   {
     "buildingName": "Ray Apartments",
     "phone": "509-215-1779",
+    "phone2": "",
     "residentialTargetedArea": "Fremont",
     "totalRestrictedUnits": 24,
     "sedu": 0,
@@ -2472,6 +2622,7 @@
   {
     "buildingName": "Ray East",
     "phone": "509-215-1779",
+    "phone2": "",
     "residentialTargetedArea": "Fremont",
     "totalRestrictedUnits": 4,
     "sedu": 0,
@@ -2491,6 +2642,7 @@
   {
     "buildingName": "Velo Apts",
     "phone": "509-215-1779",
+    "phone2": "",
     "residentialTargetedArea": "Fremont",
     "totalRestrictedUnits": 36,
     "sedu": 0,
@@ -2510,6 +2662,7 @@
   {
     "buildingName": "Vibe Fremont",
     "phone": "206-812-2209",
+    "phone2": "",
     "residentialTargetedArea": "Fremont",
     "totalRestrictedUnits": 13,
     "sedu": 0,
@@ -2529,6 +2682,7 @@
   {
     "buildingName": "Crew Apartments ",
     "phone": "833-857-4949",
+    "phone2": "",
     "residentialTargetedArea": "Greenlake/ Wallingford",
     "totalRestrictedUnits": 17,
     "sedu": 0,
@@ -2548,6 +2702,7 @@
   {
     "buildingName": "Eddy at Greenlake Village",
     "phone": "206-686-6663",
+    "phone2": "",
     "residentialTargetedArea": "Greenlake/ Wallingford",
     "totalRestrictedUnits": 26,
     "sedu": 0,
@@ -2567,6 +2722,7 @@
   {
     "buildingName": "Helene Apartments",
     "phone": "206-356-0235",
+    "phone2": "",
     "residentialTargetedArea": "Greenlake/ Wallingford",
     "totalRestrictedUnits": 13,
     "sedu": 0,
@@ -2586,6 +2742,7 @@
   {
     "buildingName": "The Loop",
     "phone": "206-472-3920",
+    "phone2": "",
     "residentialTargetedArea": "Greenlake/ Wallingford",
     "totalRestrictedUnits": 12,
     "sedu": 3,
@@ -2605,6 +2762,7 @@
   {
     "buildingName": "Smith and Burns",
     "phone": "206-889-6488",
+    "phone2": "",
     "residentialTargetedArea": "Greenlake/ Wallingford",
     "totalRestrictedUnits": 30,
     "sedu": 0,
@@ -2623,7 +2781,8 @@
   },
   {
     "buildingName": "Bogtown Flats",
-    "phone": "(206) 595-0592",
+    "phone": "206-595-0592",
+    "phone2": "",
     "residentialTargetedArea": "Greenwood-Phinney Ridge",
     "totalRestrictedUnits": 18,
     "sedu": 0,
@@ -2643,6 +2802,7 @@
   {
     "buildingName": "Cubix Crown Hill",
     "phone": "206-401-5030",
+    "phone2": "",
     "residentialTargetedArea": "Greenwood-Phinney Ridge",
     "totalRestrictedUnits": 8,
     "sedu": 1,
@@ -2662,6 +2822,7 @@
   {
     "buildingName": "Horizon Greenwood",
     "phone": "833-200-9169",
+    "phone2": "",
     "residentialTargetedArea": "Greenwood-Phinney Ridge",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -2681,6 +2842,7 @@
   {
     "buildingName": "Horizon Phinney",
     "phone": "833-200-9169",
+    "phone2": "",
     "residentialTargetedArea": "Greenwood-Phinney Ridge",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -2700,6 +2862,7 @@
   {
     "buildingName": "Horizon Phinney(2)",
     "phone": "833-200-9169",
+    "phone2": "",
     "residentialTargetedArea": "Greenwood-Phinney Ridge",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -2719,6 +2882,7 @@
   {
     "buildingName": "Janus",
     "phone": "206-928-6375",
+    "phone2": "",
     "residentialTargetedArea": "Greenwood-Phinney Ridge",
     "totalRestrictedUnits": 21,
     "sedu": 0,
@@ -2738,6 +2902,7 @@
   {
     "buildingName": "Ivy Apartments",
     "phone": "206-557-8396",
+    "phone2": "",
     "residentialTargetedArea": "Interbay",
     "totalRestrictedUnits": 19,
     "sedu": 1,
@@ -2757,6 +2922,7 @@
   {
     "buildingName": "Crane at Interbay",
     "phone": "206-282-4776",
+    "phone2": "",
     "residentialTargetedArea": "Interbay",
     "totalRestrictedUnits": 3,
     "sedu": 0,
@@ -2776,6 +2942,7 @@
   {
     "buildingName": "Publix",
     "phone": "206-467-1581",
+    "phone2": "",
     "residentialTargetedArea": "International District",
     "totalRestrictedUnits": 25,
     "sedu": 0,
@@ -2795,6 +2962,7 @@
   {
     "buildingName": "Array",
     "phone": "206-362-7729",
+    "phone2": "",
     "residentialTargetedArea": "Lake City",
     "totalRestrictedUnits": 64,
     "sedu": 0,
@@ -2814,6 +2982,7 @@
   {
     "buildingName": "Mysa",
     "phone": "844-779-7848",
+    "phone2": "",
     "residentialTargetedArea": "Lake City",
     "totalRestrictedUnits": 24,
     "sedu": 0,
@@ -2833,6 +3002,7 @@
   {
     "buildingName": "Origin",
     "phone": "206-402-4420",
+    "phone2": "",
     "residentialTargetedArea": "Lake City",
     "totalRestrictedUnits": 29,
     "sedu": 0,
@@ -2852,6 +3022,7 @@
   {
     "buildingName": "Savoy at Lake City",
     "phone": "206-482-8808",
+    "phone2": "",
     "residentialTargetedArea": "Lake City",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -2871,6 +3042,7 @@
   {
     "buildingName": "1806 23rd Ave",
     "phone": "206-966-4376",
+    "phone2": "",
     "residentialTargetedArea": "Madison-Miller",
     "totalRestrictedUnits": 13,
     "sedu": 0,
@@ -2890,6 +3062,7 @@
   {
     "buildingName": "Hamilton Apartments",
     "phone": "206-992-3403",
+    "phone2": "",
     "residentialTargetedArea": "Madison-Miller",
     "totalRestrictedUnits": 11,
     "sedu": 0,
@@ -2909,6 +3082,7 @@
   {
     "buildingName": "Othello Station South",
     "phone": "833-332-2569",
+    "phone2": "",
     "residentialTargetedArea": "MLK @ Holly",
     "totalRestrictedUnits": 71,
     "sedu": 0,
@@ -2928,6 +3102,7 @@
   {
     "buildingName": "Fauntleroy Lofts",
     "phone": "253-569-6912",
+    "phone2": "",
     "residentialTargetedArea": "Morgan Junction",
     "totalRestrictedUnits": 8,
     "sedu": 8,
@@ -2947,6 +3122,7 @@
   {
     "buildingName": "Viridian Apartments",
     "phone": "206-898-0078",
+    "phone2": "",
     "residentialTargetedArea": "Morgan Junction",
     "totalRestrictedUnits": 6,
     "sedu": 0,
@@ -2966,6 +3142,7 @@
   {
     "buildingName": "Denning",
     "phone": "206-653-4088",
+    "phone2": "",
     "residentialTargetedArea": "North Beacon Hill",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -2985,6 +3162,7 @@
   {
     "buildingName": "Holgate 12 (Phase II)",
     "phone": "425-780-0648",
+    "phone2": "",
     "residentialTargetedArea": "North Beacon Hill",
     "totalRestrictedUnits": 6,
     "sedu": 0,
@@ -3004,6 +3182,7 @@
   {
     "buildingName": "Holgate 12 Apts",
     "phone": "425-780-0648",
+    "phone2": "",
     "residentialTargetedArea": "North Beacon Hill",
     "totalRestrictedUnits": 5,
     "sedu": 0,
@@ -3023,6 +3202,7 @@
   {
     "buildingName": "Jefferson Station Apartments",
     "phone": "206-886-3969",
+    "phone2": "",
     "residentialTargetedArea": "North Beacon Hill",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -3042,6 +3222,7 @@
   {
     "buildingName": "525 at the Enclave",
     "phone": "206-326-1018",
+    "phone2": "",
     "residentialTargetedArea": "Northgate",
     "totalRestrictedUnits": 54,
     "sedu": 0,
@@ -3061,6 +3242,7 @@
   {
     "buildingName": "Lane Apartments",
     "phone": "206-492-7001",
+    "phone2": "",
     "residentialTargetedArea": "Northgate",
     "totalRestrictedUnits": 44,
     "sedu": 0,
@@ -3080,6 +3262,7 @@
   {
     "buildingName": "Prism",
     "phone": "206-326-1911",
+    "phone2": "",
     "residentialTargetedArea": "Northgate",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -3099,6 +3282,7 @@
   {
     "buildingName": "Thornton Place",
     "phone": "206-523-1111",
+    "phone2": "",
     "residentialTargetedArea": "Northgate",
     "totalRestrictedUnits": 56,
     "sedu": 0,
@@ -3118,6 +3302,7 @@
   {
     "buildingName": "Beryl",
     "phone": "206-320-1200",
+    "phone2": "",
     "residentialTargetedArea": "Pike/Pine",
     "totalRestrictedUnits": 19,
     "sedu": 0,
@@ -3137,6 +3322,7 @@
   {
     "buildingName": "Boylston Flats",
     "phone": "206-538-2340",
+    "phone2": "",
     "residentialTargetedArea": "Pike/Pine",
     "totalRestrictedUnits": 23,
     "sedu": 0,
@@ -3156,6 +3342,7 @@
   {
     "buildingName": "Broadcast Apartments",
     "phone": "206-322-1326",
+    "phone2": "",
     "residentialTargetedArea": "Pike/Pine",
     "totalRestrictedUnits": 14,
     "sedu": 0,
@@ -3175,6 +3362,7 @@
   {
     "buildingName": "Cove",
     "phone": "206-566-6603",
+    "phone2": "",
     "residentialTargetedArea": "Pike/Pine",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -3194,6 +3382,7 @@
   {
     "buildingName": "Cue Apartments",
     "phone": "855-724-8638",
+    "phone2": "",
     "residentialTargetedArea": "Pike/Pine",
     "totalRestrictedUnits": 18,
     "sedu": 0,
@@ -3213,6 +3402,7 @@
   {
     "buildingName": "Evolve",
     "phone": "206-328-4006",
+    "phone2": "",
     "residentialTargetedArea": "Pike/Pine",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -3232,6 +3422,7 @@
   {
     "buildingName": "REO Flats",
     "phone": "206-860-3000",
+    "phone2": "",
     "residentialTargetedArea": "Pike/Pine",
     "totalRestrictedUnits": 22,
     "sedu": 0,
@@ -3251,6 +3442,7 @@
   {
     "buildingName": "Three20",
     "phone": "206-347-3513",
+    "phone2": "",
     "residentialTargetedArea": "Pike/Pine",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -3270,6 +3462,7 @@
   {
     "buildingName": "Assembly 118",
     "phone": "206-981-5707",
+    "phone2": "",
     "residentialTargetedArea": "Rainier Valley",
     "totalRestrictedUnits": 72,
     "sedu": 0,
@@ -3289,6 +3482,7 @@
   {
     "buildingName": "Spokane",
     "phone": "206-227-9923",
+    "phone2": "",
     "residentialTargetedArea": "Rainier Valley",
     "totalRestrictedUnits": 17,
     "sedu": 0,
@@ -3308,6 +3502,7 @@
   {
     "buildingName": "Stazione 25-North",
     "phone": "206-806-7992",
+    "phone2": "",
     "residentialTargetedArea": "Rainier Valley",
     "totalRestrictedUnits": 22,
     "sedu": 0,
@@ -3327,6 +3522,7 @@
   {
     "buildingName": "Stazione 25-South",
     "phone": "206-725-2615",
+    "phone2": "",
     "residentialTargetedArea": "Rainier Valley",
     "totalRestrictedUnits": 39,
     "sedu": 0,
@@ -3346,6 +3542,7 @@
   {
     "buildingName": "Eleanor",
     "phone": "206-201-1948",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 52,
     "sedu": 0,
@@ -3365,6 +3562,7 @@
   {
     "buildingName": "Innovative Living @ Roosevelt",
     "phone": "206-523-0300",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 4,
     "sedu": 0,
@@ -3384,6 +3582,7 @@
   {
     "buildingName": "Iron Flats - East",
     "phone": "206-403-1467",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 13,
     "sedu": 0,
@@ -3403,6 +3602,7 @@
   {
     "buildingName": "Kavela",
     "phone": "206-889-6542",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 13,
     "sedu": 0,
@@ -3422,6 +3622,7 @@
   {
     "buildingName": "LIV Roosevelt",
     "phone": "206-719-1900",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 17,
     "sedu": 0,
@@ -3441,6 +3642,7 @@
   {
     "buildingName": "Lucille on Roosevelt",
     "phone": "206-388-2233",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 22,
     "sedu": 0,
@@ -3460,6 +3662,7 @@
   {
     "buildingName": "Maude Apartments",
     "phone": "206-403-1467",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -3479,6 +3682,7 @@
   {
     "buildingName": "Mio Apartments",
     "phone": "206-734-3359",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -3498,6 +3702,7 @@
   {
     "buildingName": "Roosevelt Townhomes",
     "phone": "206-230-9874",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 3,
     "sedu": 0,
@@ -3517,6 +3722,7 @@
   {
     "buildingName": "Rooster",
     "phone": "206-445-6785",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 40,
     "sedu": 0,
@@ -3536,6 +3742,7 @@
   {
     "buildingName": "Square One",
     "phone": "206-347-3722",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 22,
     "sedu": 0,
@@ -3555,6 +3762,7 @@
   {
     "buildingName": "Vista Apartments",
     "phone": "206-237-5307",
+    "phone2": "",
     "residentialTargetedArea": "Roosevelt",
     "totalRestrictedUnits": 14,
     "sedu": 0,
@@ -3574,6 +3782,7 @@
   {
     "buildingName": "Boxcar",
     "phone": "206-467-1111",
+    "phone2": "",
     "residentialTargetedArea": "South Lake Union",
     "totalRestrictedUnits": 29,
     "sedu": 0,
@@ -3593,6 +3802,7 @@
   {
     "buildingName": "Chroma",
     "phone": "206-971-2111",
+    "phone2": "",
     "residentialTargetedArea": "South Lake Union",
     "totalRestrictedUnits": 56,
     "sedu": 0,
@@ -3612,6 +3822,7 @@
   {
     "buildingName": "Modera South Lake Union",
     "phone": "844-679-7953",
+    "phone2": "",
     "residentialTargetedArea": "South Lake Union",
     "totalRestrictedUnits": 59,
     "sedu": 0,
@@ -3631,6 +3842,7 @@
   {
     "buildingName": "Orion",
     "phone": "206-806-6700",
+    "phone2": "",
     "residentialTargetedArea": "South Lake Union",
     "totalRestrictedUnits": 26,
     "sedu": 0,
@@ -3650,6 +3862,7 @@
   {
     "buildingName": "Sitka",
     "phone": "206-887-9523",
+    "phone2": "",
     "residentialTargetedArea": "South Lake Union",
     "totalRestrictedUnits": 77,
     "sedu": 0,
@@ -3669,6 +3882,7 @@
   {
     "buildingName": "Stack House",
     "phone": "206-682-7319",
+    "phone2": "",
     "residentialTargetedArea": "South Lake Union",
     "totalRestrictedUnits": 56,
     "sedu": 0,
@@ -3688,6 +3902,7 @@
   {
     "buildingName": "Stream Dexios",
     "phone": "206-285-1240",
+    "phone2": "",
     "residentialTargetedArea": "South Lake Union",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -3707,6 +3922,7 @@
   {
     "buildingName": "Westlake Steps",
     "phone": "206-207-3420",
+    "phone2": "",
     "residentialTargetedArea": "South Lake Union",
     "totalRestrictedUnits": 77,
     "sedu": 0,
@@ -3726,6 +3942,7 @@
   {
     "buildingName": "50th and Roosevelt",
     "phone": "206-240-0878",
+    "phone2": "",
     "residentialTargetedArea": "University",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -3745,6 +3962,7 @@
   {
     "buildingName": "Augusta",
     "phone": "206-339-3440",
+    "phone2": "",
     "residentialTargetedArea": "University",
     "totalRestrictedUnits": 42,
     "sedu": 0,
@@ -3764,6 +3982,7 @@
   {
     "buildingName": "Medora",
     "phone": "206-457-8491",
+    "phone2": "",
     "residentialTargetedArea": "University",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -3783,6 +4002,7 @@
   {
     "buildingName": "Mercy Magnuson Place",
     "phone": "206-455-9269",
+    "phone2": "",
     "residentialTargetedArea": "University District",
     "totalRestrictedUnits": 22,
     "sedu": 0,
@@ -3802,6 +4022,7 @@
   {
     "buildingName": "Parsonage",
     "phone": "206-771-4593",
+    "phone2": "",
     "residentialTargetedArea": "University District",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -3821,6 +4042,7 @@
   {
     "buildingName": "Prexy",
     "phone": "206-641-7732",
+    "phone2": "",
     "residentialTargetedArea": "University District",
     "totalRestrictedUnits": 14,
     "sedu": 0,
@@ -3840,6 +4062,7 @@
   {
     "buildingName": "Vida Apartments",
     "phone": "206-523-3555",
+    "phone2": "",
     "residentialTargetedArea": "University District",
     "totalRestrictedUnits": 42,
     "sedu": 0,
@@ -3859,6 +4082,7 @@
   {
     "buildingName": "Bridges at 11th",
     "phone": "206-569-5416",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 37,
     "sedu": 0,
@@ -3878,6 +4102,7 @@
   {
     "buildingName": "Identity (NORA) (Building \"D\")",
     "phone": "206-399-7526",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 21,
     "sedu": 0,
@@ -3897,6 +4122,7 @@
   {
     "buildingName": "Identity (NORA) (Building \"I\")",
     "phone": "206-399-7526",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 20,
     "sedu": 0,
@@ -3916,6 +4142,7 @@
   {
     "buildingName": "Lightbox",
     "phone": "206-207-0084",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 33,
     "sedu": 0,
@@ -3935,6 +4162,7 @@
   {
     "buildingName": "LOHAS",
     "phone": "206-282-1103",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 5,
     "sedu": 0,
@@ -3954,6 +4182,7 @@
   {
     "buildingName": "Muriels Landing",
     "phone": "206-929-4102",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 20,
     "sedu": 0,
@@ -3973,6 +4202,7 @@
   {
     "buildingName": "Sophie Studios",
     "phone": "206-403-1467",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 9,
     "sedu": 0,
@@ -3992,6 +4222,7 @@
   {
     "buildingName": "Strada aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -4011,6 +4242,7 @@
   {
     "buildingName": "Trovere aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -4030,6 +4262,7 @@
   {
     "buildingName": "Venetia aPodments",
     "phone": "206-801-3570",
+    "phone2": "",
     "residentialTargetedArea": "University District - NW",
     "totalRestrictedUnits": 10,
     "sedu": 0,
@@ -4049,6 +4282,7 @@
   {
     "buildingName": "Brooklyn Boutique Apartments",
     "phone": "206-396-4057",
+    "phone2": "",
     "residentialTargetedArea": "University District- NW",
     "totalRestrictedUnits": 4,
     "sedu": 0,
@@ -4068,6 +4302,7 @@
   {
     "buildingName": "Stax",
     "phone": "206-403-1467",
+    "phone2": "",
     "residentialTargetedArea": "University District- NW",
     "totalRestrictedUnits": 12,
     "sedu": 12,
@@ -4087,6 +4322,7 @@
   {
     "buildingName": "Squire Park Plaza",
     "phone": "206-204-8746",
+    "phone2": "",
     "residentialTargetedArea": "23rd & Union-Jackson",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -4106,6 +4342,7 @@
   {
     "buildingName": "Studio 7 Apartments",
     "phone": "206-641-1520",
+    "phone2": "",
     "residentialTargetedArea": "University District- NW",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -4124,7 +4361,8 @@
   },
   {
     "buildingName": "708 Uptown",
-    "phone": "844-244-2901; 206-453-5585",
+    "phone": "844-244-2901",
+    "phone2": "206-453-5585",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 24,
     "sedu": 0,
@@ -4144,6 +4382,7 @@
   {
     "buildingName": "Aperture on Fifth",
     "phone": "206-785-2002",
+    "phone2": "",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 21,
     "sedu": 0,
@@ -4163,6 +4402,7 @@
   {
     "buildingName": "Avalon Queen Anne",
     "phone": "206-237-4849",
+    "phone2": "",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 41,
     "sedu": 0,
@@ -4182,6 +4422,7 @@
   {
     "buildingName": "Broadstone Clarendon",
     "phone": "425-490-4793",
+    "phone2": "",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -4200,7 +4441,8 @@
   },
   {
     "buildingName": "Century",
-    "phone": "(206) 962-5444",
+    "phone": "206-962-5444",
+    "phone2": "",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 52,
     "sedu": 0,
@@ -4220,6 +4462,7 @@
   {
     "buildingName": "Cora Apartments",
     "phone": "206-281-5278",
+    "phone2": "",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -4239,6 +4482,7 @@
   {
     "buildingName": "Expo",
     "phone": "206-483-0093",
+    "phone2": "",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 55,
     "sedu": 0,
@@ -4258,6 +4502,7 @@
   {
     "buildingName": "H2O Apts",
     "phone": "206-282-0400",
+    "phone2": "",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -4277,6 +4522,7 @@
   {
     "buildingName": "Zella Apartments ",
     "phone": "206-312-6409",
+    "phone2": "",
     "residentialTargetedArea": "Uptown",
     "totalRestrictedUnits": 26,
     "sedu": 0,
@@ -4296,6 +4542,7 @@
   {
     "buildingName": "4025 Stone",
     "phone": "206-480-7138",
+    "phone2": "",
     "residentialTargetedArea": "Wallingford",
     "totalRestrictedUnits": 12,
     "sedu": 2,
@@ -4315,6 +4562,7 @@
   {
     "buildingName": "Bowman Stoneway",
     "phone": "844-377-9825",
+    "phone2": "",
     "residentialTargetedArea": "Wallingford",
     "totalRestrictedUnits": 55,
     "sedu": 0,
@@ -4334,6 +4582,7 @@
   {
     "buildingName": "LIV Wallingford",
     "phone": "978-820-0417",
+    "phone2": "",
     "residentialTargetedArea": "Wallingford",
     "totalRestrictedUnits": 6,
     "sedu": 0,
@@ -4353,6 +4602,7 @@
   {
     "buildingName": "Noble",
     "phone": "206-453-6781",
+    "phone2": "",
     "residentialTargetedArea": "Wallingford",
     "totalRestrictedUnits": 19,
     "sedu": 0,
@@ -4372,6 +4622,7 @@
   {
     "buildingName": "Wallingford Studios",
     "phone": "206-812-1037",
+    "phone2": "",
     "residentialTargetedArea": "Wallingford",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -4391,6 +4642,7 @@
   {
     "buildingName": "Wally Apts",
     "phone": "206-632-0281",
+    "phone2": "",
     "residentialTargetedArea": "Wallingford",
     "totalRestrictedUnits": 6,
     "sedu": 0,
@@ -4410,6 +4662,7 @@
   {
     "buildingName": "Huxley",
     "phone": "206-309-7628",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle",
     "totalRestrictedUnits": 22,
     "sedu": 0,
@@ -4429,6 +4682,7 @@
   {
     "buildingName": "4730 California",
     "phone": "855-761-7237",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 15,
     "sedu": 0,
@@ -4448,6 +4702,7 @@
   {
     "buildingName": "Adell Apartments",
     "phone": "206-397-3811",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 22,
     "sedu": 0,
@@ -4467,6 +4722,7 @@
   {
     "buildingName": "AJ Apartments",
     "phone": "206-923-2828",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 11,
     "sedu": 0,
@@ -4486,6 +4742,7 @@
   {
     "buildingName": "Altamira Apts",
     "phone": "206-937-8439",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 32,
     "sedu": 0,
@@ -4505,6 +4762,7 @@
   {
     "buildingName": "Aura West",
     "phone": "206-203-5772",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 31,
     "sedu": 0,
@@ -4524,6 +4782,7 @@
   {
     "buildingName": "Avalon Studios",
     "phone": "206-329-0085",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -4543,6 +4802,7 @@
   {
     "buildingName": "Blake",
     "phone": "206-935-3435",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 21,
     "sedu": 0,
@@ -4562,6 +4822,7 @@
   {
     "buildingName": "Broadstone Sky",
     "phone": "844-367-3017",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -4581,6 +4842,7 @@
   {
     "buildingName": "Junction 47",
     "phone": "206-347-3655",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 42,
     "sedu": 0,
@@ -4600,6 +4862,7 @@
   {
     "buildingName": "Junction Flats",
     "phone": "206-420-8222",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 16,
     "sedu": 0,
@@ -4619,6 +4882,7 @@
   {
     "buildingName": "Junction Landing",
     "phone": "206-432-9991",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 12,
     "sedu": 0,
@@ -4638,6 +4902,7 @@
   {
     "buildingName": "Link Apts",
     "phone": "833-863-9641",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 39,
     "sedu": 0,
@@ -4657,6 +4922,7 @@
   {
     "buildingName": "LIV Fauntleroy",
     "phone": "971-770-2415",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 11,
     "sedu": 0,
@@ -4676,6 +4942,7 @@
   {
     "buildingName": "Lofts at the Junction",
     "phone": "206-858-2112",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 8,
     "sedu": 0,
@@ -4695,6 +4962,7 @@
   {
     "buildingName": "Luna",
     "phone": "206-702-3142",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -4714,6 +4982,7 @@
   {
     "buildingName": "Marq West Seattle",
     "phone": "888-246-2295",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 23,
     "sedu": 0,
@@ -4733,6 +5002,7 @@
   {
     "buildingName": "Mural Apts",
     "phone": "833-668-1682",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 28,
     "sedu": 0,
@@ -4752,6 +5022,7 @@
   {
     "buildingName": "Nova Apts",
     "phone": "206-937-0112",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 13,
     "sedu": 0,
@@ -4771,6 +5042,7 @@
   {
     "buildingName": "Oregon 42",
     "phone": "206-935-4200",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 27,
     "sedu": 0,
@@ -4790,6 +5062,7 @@
   {
     "buildingName": "Spruce",
     "phone": "206-937-0643",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 44,
     "sedu": 0,
@@ -4809,6 +5082,7 @@
   {
     "buildingName": "Whittaker",
     "phone": "844-409-2377",
+    "phone2": "",
     "residentialTargetedArea": "West Seattle Junction",
     "totalRestrictedUnits": 78,
     "sedu": 0,
@@ -4828,6 +5102,7 @@
   {
     "buildingName": "Center Steps",
     "phone": "206-465-8850",
+    "phone2": "",
     "residentialTargetedArea": "Westlake",
     "totalRestrictedUnits": 54,
     "sedu": 0,
@@ -4847,6 +5122,7 @@
   {
     "buildingName": "Leeward",
     "phone": "206-203-7509",
+    "phone2": "",
     "residentialTargetedArea": "Westlake",
     "totalRestrictedUnits": 7,
     "sedu": 0,
@@ -4863,4 +5139,4 @@
     "state": "WA",
     "zip": 98109
   }
- ]
+]
