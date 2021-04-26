@@ -14,14 +14,13 @@ const firebaseConfig = {
 };
 
 firebase.initializeApp(firebaseConfig);
-// const databaseRef = firebase.database().ref();
-// export const buildingsRef = databaseRef.child("buildings")
-let countWritten = 0
-let countUpdated = 0
+let countWritten = 0;
+let countUpdated = 0;
 const db = firebase.firestore();
-buildings.forEach(function(obj) {
 
-  db.collection("buildings").add({
+buildings.forEach(function(obj) {
+  db.collection("buildings")
+  .add({
     buildingName: obj.buildingName,
     phone: obj.phone,
     phone2: obj.phone2,
@@ -42,8 +41,8 @@ buildings.forEach(function(obj) {
     zip: obj.zip
   }).then(function(docRef) {
     console.log("Document written with ID: ", docRef.id);
-    countWritten += 1
-    console.log("Count written: ", countWritten)
+    countWritten += 1;
+    console.log("Count written: ", countWritten);
 
     const currentBuilding = db.collection("buildings").doc(docRef.id);
 
@@ -52,8 +51,8 @@ buildings.forEach(function(obj) {
     })
     .then(() => {
       console.log("Document successfully updated with id: ", docRef.id);
-      countUpdated += 1
-      console.log("Count updated: ", countUpdated)
+      countUpdated += 1;
+      console.log("Count updated: ", countUpdated);
     })
     .catch((error) => {
       console.error("Error updating document: ", error);
