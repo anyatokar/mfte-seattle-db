@@ -2,7 +2,7 @@
   {
     "buildingName": "Zig Apartments",
     "correction": {
-      "street": "550 Broadway"
+      "streetNum": "550"
     },
     "explanation": "Zig apartments: 550 Broadway, not 515 Broadway"
   },
