@@ -1308,7 +1308,12 @@
     "oneBedroomUnits": 9,
     "twoBedroomUnits": 8,
     "threePlusBedroomUnits": 1,
-    "urlForBuilding": "http://www.livecapitolhillstation.com/"
+    "urlForBuilding": "http://www.livecapitolhillstation.com/",
+    "lat": 47.619327,
+    "lng": -122.320587,
+    "city": "Seattle",
+    "state": "WA",
+    "zip": "98102"
   },
   {
     "buildingName": "Capitol Hill Station - Site B South",
