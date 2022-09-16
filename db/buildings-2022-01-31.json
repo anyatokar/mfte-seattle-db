@@ -1308,12 +1308,7 @@
     "oneBedroomUnits": 9,
     "twoBedroomUnits": 8,
     "threePlusBedroomUnits": 1,
-    "urlForBuilding": "http://www.livecapitolhillstation.com/",
-    "lat": 47.619327,
-    "lng": -122.320587,
-    "city": "Seattle",
-    "state": "WA",
-    "zip": "98102"
+    "urlForBuilding": "http://www.livecapitolhillstation.com/"
   },
   {
     "buildingName": "Capitol Hill Station - Site B South",
@@ -1555,8 +1550,8 @@
     "twoBedroomUnits": 3,
     "threePlusBedroomUnits": 0,
     "urlForBuilding": "https://www.jackapts.com/",
-    "lat": 47.608479,
-    "lng": -122.339963,
+    "lat": 47.61366,
+    "lng": -122.31853,
     "city": "Seattle",
     "state": "WA",
     "zip": "98101"
