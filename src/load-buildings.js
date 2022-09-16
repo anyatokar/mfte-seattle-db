@@ -16,7 +16,7 @@ const LATEST_DATA = '2022-01-31';
 const CURRENT_WORKBOOK = `./workbooks/MFTEParticipantContact-${LATEST_DATA}.xlsx`;
 const CURRENT_DB_PATH = `./db/buildings-${LATEST_DATA}.json`;
 
-const PREVIOUS_DATA = '2021-04';
+const PREVIOUS_DATA = '2022-01-31';
 const PREVIOUS_DB_PATH = `./db/buildings-${PREVIOUS_DATA}.json`;
 
 const corrections = JSON.parse(fs.readFileSync('./src/buildings-corrections.json'));
@@ -93,6 +93,18 @@ const dbFormatMfteData = rawMfteData.map(building => {
   building.street = street;
   building.streetNum = streetNum;
 
+  // Correct phone numbers that are numbers
+  if (typeof building.phone === 'number') {
+    const phoneNum = building.phone.toString();
+    const formatted = `${phoneNum.slice(0,3)}-${phoneNum.slice(3,6)}-${phoneNum.slice(6,10)}`;
+    building.phone = formatted;
+  }
+
+  // Split off second phone #s
+  const phones = building.phone?.split('; ') || [];
+  building.phone = phones[0] || '';
+  building.phone2 = phones[1] || '';
+
   // Duplicated names rules...
   // Common Anderson: add the street number to the name
   if (building.buildingName === 'Common Anderson') {
@@ -163,7 +175,9 @@ const geocodeNeeded = new Set(addedBuildings);
 const correctedDbFormatMfteData = dbFormatMfteData.map(building => {
   const correctionsForBuilding = corrections.filter(c => c.buildingName === building.buildingName);
   for (let c of correctionsForBuilding) {
-    if ("street" in c.correction || "streetNum" in c.correction) {
+    if ("street" in c.correction && c.correction.street !== building.street ||
+        "streetNum" in c.correction && c.correction.streetNum !== building.streetNum )
+    {
       geocodeNeeded.add(building.buildingName); // Corrections that include street or street number require geocoding.
     }
     building = { ...building, ...c.correction };
@@ -257,7 +271,8 @@ async function geocodeAddresses() {
         lng: existingBuilding.lng,
         city: existingBuilding.city,
         state: existingBuilding.state,
-        zip: existingBuilding.zip.toString() // Make sure zip codes aren't numbers.
+        zip: existingBuilding.zip.toString(), // Make sure zip codes aren't numbers.
+        geocodeLicense: existingBuilding.geocodeLicense
       });
     }
   }
