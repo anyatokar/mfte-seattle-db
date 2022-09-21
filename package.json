@@ -11,7 +11,8 @@
   },
   "scripts": {
     "loadbuildings": "node ./src/load-buildings.js",
-    "updatedb": "GOOGLE_APPLICATION_CREDENTIALS='./mfte-simple-92c08-f5001a0a32b8.json' node src/import.js"
+    "updatedb": "GOOGLE_APPLICATION_CREDENTIALS='./mfte-simple-92c08-f5001a0a32b8.json' node src/import.js",
+    "backupdb": "GOOGLE_APPLICATION_CREDENTIALS='./mfte-simple-92c08-f5001a0a32b8.json' node src/backup.js"
   },
   "devDependencies": {}
 }
