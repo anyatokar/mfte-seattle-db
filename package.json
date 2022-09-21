@@ -4,10 +4,14 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "dotenv": "^16.0.2",
     "firebase": "^8.2.7",
+    "firebase-admin": "^11.0.1",
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "start": "node ./src/load-buildings.js"
-  }
+    "loadbuildings": "node ./src/load-buildings.js",
+    "updatedb": "GOOGLE_APPLICATION_CREDENTIALS='./mfte-simple-92c08-f5001a0a32b8.json' node src/import.js"
+  },
+  "devDependencies": {}
 }
