@@ -56,13 +56,18 @@ const extractFields = (bldg, revision = 0) => {
 
 const buildingNeedsUpdate = (existingBldg, newBldg) => {
   // Existing building needs an update if any field it has is different from a field that newBldg has.
+  let shouldUpdate = false;
   for (let [key, value] of Object.entries(existingBldg)) {
     if (key in newBldg && newBldg[key] !== value) {
-      return true;
+      if (value != newBldg[key]) {
+        // Print out any changes that aren't purely number <-> string; those are interesting.
+        console.log(`${existingBldg.buildingID}: key "${key}", ${value} (${typeof value}) should be replaced by ${newBldg[key]} (${typeof newBldg[key]})`);
+      }
+      shouldUpdate = true;
     }
   }
 
-  return false;
+  return shouldUpdate;
 }
 
 const buildingCollection = db.collection(DESTINATION_COLLECTION);
@@ -78,7 +83,7 @@ for await (const existingBuilding of allBuildings.docs) {
   // 3. See if it needs updating and increment its revision if we do update it.
 
   if (!bldgWithThisName) {
-    console.log(`Removing building ${existingBuilding.ref.id}, which is not in the new db`);
+    console.log(`${existingBuilding.ref.id}: removed, not in the new db`);
     await existingBuilding.ref.delete();
     countDeleted += 1;
   } else {
@@ -87,12 +92,12 @@ for await (const existingBuilding of allBuildings.docs) {
 
     // If something is different, update and increment revision.
     if (buildingNeedsUpdate(existingBldgData, bldgWithThisName)) {
-      const newBuildingData = extractFields(bldgWithThisName, existingBldgData.revision + 1);
+      const newBuildingData = extractFields(bldgWithThisName, (existingBldgData.revision || 0) + 1);
       await existingBuilding.ref.set(newBuildingData);
-      console.log(`Successfully updated building ${existingBuilding.ref.id}, revision ${newBuildingData.revision}`);
+      console.log(`${existingBuilding.ref.id} updated, revision ${newBuildingData.revision}`);
       countUpdated += 1;
     } else {
-      console.log(`Building ${existingBuilding.ref.id} is already up to date.`);
+      console.log(`${existingBuilding.ref.id} is already up to date.`);
     }
   }
 }
@@ -107,14 +112,14 @@ for await (const bldg of newBuildings) {
     console.error("Error adding building: ", error);
   }
 
-  console.log("Building added with ID: ", docRef.id);
+  console.log(`${docRef.id}: added building`);
   countWritten += 1;
 
   const currentBuilding = buildingCollection.doc(docRef.id);
 
   try {
     await currentBuilding.update({ buildingID: docRef.id });
-    console.log("buildingID written back into building: ", docRef.id);
+    console.log(`${docRef.id}: updated with buildingID`);
     countIdGend += 1;
   } catch (error) {
     console.error("Error updating building with new ID: ", error);
