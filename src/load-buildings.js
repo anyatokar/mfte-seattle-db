@@ -57,6 +57,14 @@ const COLUMNS = [
   'additionalInformation'
 ];
 
+const amis = {
+  sedu: [40, 50, 60],
+  studioUnits: [40, 50, 60, 65, 70, 80],
+  oneBedroomUnits: [50, 60, 70, 75, 80],
+  twoBedroomUnits: [50, 60, 70, 80, 85, 90],
+  threePlusBedroomUnits: [80, 85, 90]
+};
+
 // 1. Load the previous database
 let db = [];
 
@@ -85,6 +93,9 @@ const dbFormatMfteData = rawMfteData.map(building => {
   // Drop the '*' from the "is new" column
   delete building.isNew
 
+  // Strip leading & trailing spaces from building names
+  building.buildingName = building.buildingName.trim();
+
   // Split the street into streetNum and street.
   const [_, streetNum, street] = building.street.match(/(\d+) (.*)/);
   if (!streetNum || !street) {
@@ -105,6 +116,10 @@ const dbFormatMfteData = rawMfteData.map(building => {
   building.phone = phones[0] || '';
   building.phone2 = phones[1] || '';
 
+  // Lat/Long are numbers
+  building.lat = Number(building.lat);
+  building.lng = Number(building.lng);
+
   // Duplicated names rules...
   // Common Anderson: add the street number to the name
   if (building.buildingName === 'Common Anderson') {
@@ -112,14 +127,6 @@ const dbFormatMfteData = rawMfteData.map(building => {
   }
 
   // Combine AMIs together
-  const amis = {
-    sedu: [40, 50, 60],
-    studioUnits: [40, 50, 60, 65, 70, 80],
-    oneBedroomUnits: [50, 60, 70, 75, 80],
-    twoBedroomUnits: [50, 60, 70, 80, 85, 90],
-    threePlusBedroomUnits: [80, 85, 90]
-  };
-
   Object.entries(amis).forEach(([amiKey, amiList]) => {
     building[amiKey] = 0;
     for (let amiVal of amiList) {
@@ -136,6 +143,39 @@ dbFormatMfteData.forEach((building, idx) => {
   const cell = `B${idx + FIRST_DATA_ROW + 4}`;
   building.urlForBuilding = sheetRaw[cell]?.l?.Target || '';
 });
+
+// One-off correction: "Iron Flats - West Bldg & North Bldg" two buildings are combined together
+// Best guess, split out their MFTE units half & half
+const ironFlatsIdx = dbFormatMfteData.findIndex(bldg => bldg.buildingName === 'Iron Flats - West Bldg & North Bldg');
+if (ironFlatsIdx > -1) {
+  const ironFlatsWest = dbFormatMfteData[ironFlatsIdx];
+  const ironFlatsNorth = { ...ironFlatsWest };
+  dbFormatMfteData.splice(ironFlatsIdx + 1, 0, ironFlatsNorth);
+
+  ironFlatsWest.buildingName = 'Iron Flats - West';
+  ironFlatsWest.street = ironFlatsWest.street.match(/(.*) \(.*\) &/)[1];
+
+  ironFlatsNorth.buildingName = 'Iron Flats - North';
+  let _;
+  [_, ironFlatsNorth.streetNum, ironFlatsNorth.street] = ironFlatsNorth.street.match(/& (\d+) (.*) \(.*\)/);
+
+  const halveUnits = (bldg, rd) => {
+    bldg.totalRestrictedUnits = rd(bldg.totalRestrictedUnits / 2);
+    Object.entries(amis).forEach(([amiKey, amiList]) => {
+      bldg[amiKey] = 0;
+      for (let amiVal of amiList) {
+        const keyOfThisAmiVal = `${amiKey}.${amiVal}ami`; // e.g. 'twoBedroomUnits.50ami'
+        if (keyOfThisAmiVal in bldg) {
+          bldg[keyOfThisAmiVal] = rd(bldg[keyOfThisAmiVal] / 2);
+          bldg[amiKey] += bldg[keyOfThisAmiVal];
+        }
+      }
+    });
+  };
+
+  halveUnits(ironFlatsNorth, Math.ceil);
+  halveUnits(ironFlatsWest, Math.floor);
+}
 
 // Now dbFormatMfteData has all the data provided from the sheet, but no geocode information or corrections.
 
@@ -248,8 +288,8 @@ async function geocodeAddresses() {
 
         const updatedBuilding = {
           ...building,
-          lat: geocodeResult.lat,
-          lng: geocodeResult.lon,
+          lat: Number(geocodeResult.lat),
+          lng: Number(geocodeResult.lon),
           city,
           state,
           zip,
@@ -267,8 +307,8 @@ async function geocodeAddresses() {
       const existingBuilding = db.find(({ buildingName }) => buildingName === building.buildingName);
       result.push({
         ...building,
-        lat: existingBuilding.lat,
-        lng: existingBuilding.lng,
+        lat: Number(existingBuilding.lat), // Lat is a number
+        lng: Number(existingBuilding.lng), // Long is a number
         city: existingBuilding.city,
         state: existingBuilding.state,
         zip: existingBuilding.zip.toString(), // Make sure zip codes aren't numbers.
