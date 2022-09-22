@@ -1,0 +1,58 @@
+[
+  {
+    "buildingName": "Zig Apartments",
+    "correction": {
+      "streetNum": "550"
+    },
+    "explanation": "Zig apartments: 550 Broadway, not 515 Broadway"
+  },
+  {
+    "buildingName": "Soleil",
+    "correction": {
+      "urlForBuilding": ""
+    },
+    "explanation": "Soleil apartments URL doesn't work anymore. No building-specific website shows up on Google."
+  },
+  {
+    "buildingName": "Terrazza aPodments",
+    "correction": {
+      "urlForBuilding": "https://www.apodment.com/seattle/terrazza/conventional/"
+    },
+    "explanation": "URL going to root apodment.com site, not the building-specific site."
+  },
+  {
+    "buildingName": "Modera Jackson",
+    "correction": {
+      "urlForBuilding": "https://millcreekplaces.com/community/modera-jackson/"
+    },
+    "explanation": "Sheet URL goes to some dude's self-help site."
+  },
+  {
+    "buildingName": "Solana aPodments",
+    "correction": {
+      "urlForBuilding": "https://www.apodment.com/seattle/solana/conventional/"
+    },
+    "explanation": "URL going to root apodment.com site, not the building-specific site."
+  },
+  {
+    "buildingName": "Bode Greenview",
+    "correction": {
+      "urlForBuilding": "https://livingbode.com/all-properties/bode-greenlake"
+    },
+    "explanation": "Goes to former management company"
+  },
+  {
+    "buildingName": "Galloway",
+    "correction": {
+      "urlForBuilding": ""
+    },
+    "explanation": "Building not listed on linked site. Google results have confusion between Gallaway and Galloway."
+  },
+  {
+    "buildingName": "Solo Lofts",
+    "correction": {
+      "urlForBuilding": ""
+    },
+    "explanation": "sololofts.com redirects to rentcafe.com, but no results appear when you search for Solo Lofts. Better to remove it."
+  }
+]
