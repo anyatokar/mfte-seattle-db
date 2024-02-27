@@ -56,7 +56,7 @@ buildings.map(async function(obj) {
 
   try {
     await setDoc(doc(db, "buildings", buildingData.buildingID), buildingData);
-    console.log("Successfully set building doc with BuildingID:: ", buildingData.buildingID);
+    console.log("Successfully set building doc with BuildingID: ", buildingData.buildingID);
     successCount += 1;
   } catch (error) {
     console.error(`Error adding document with buildingID ${buildingData.buildingID}: `, error);
