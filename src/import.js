@@ -1,8 +1,6 @@
-import { timestampPT } from './generalUtils';
-
-const buildings = require('./buildings_10_2023.json');
-const firebase = require('firebase');
-require('firebase/firestore');
+import buildings from "./db/buildings_2024_02.json" assert { type: 'json' };
+import { initializeApp } from "firebase/app";
+import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_APIKEY,
@@ -15,12 +13,13 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_MID
 };
 
-// I AM CONFUSED ABOUT HOW THIS WORKS WITH NOTHING IN THE .ENV, does Exported overwrite?
+const app = initializeApp(firebaseConfig);
 
-firebase.initializeApp(firebaseConfig);
-let countWritten = 0;
-let countUpdated = 0;
-const db = firebase.firestore();
+const db = getFirestore(app);
+
+let successCount = 0;
+let errorCount = 0;
+let totalCount = 0;
 
 /*
   https://firebase.google.com/docs/firestore/manage-data/add-data#set_a_document
@@ -29,11 +28,11 @@ const db = firebase.firestore();
 
   All data are strings except lat, lng which must be a number for mapping.
 */
-buildings.forEach(function(obj) {
+buildings.map(async function(obj) {
   const buildingData = {
     buildingID: obj.buildingID,
-    IDEnd: obj.IDEnd,
-    IDWithEnd: obj.IDWithEnd,
+    dateCode: obj.dateCode,
+    IDWithDataCode: obj.IDWithDateCode,
     buildingName: obj.buildingName,
     phone: obj.phone,
     phone2: obj.phone2,
@@ -52,34 +51,19 @@ buildings.forEach(function(obj) {
     city: obj.city,
     state: obj.state,
     zip: obj.zip,
-    updatedTimestamp: timestampPT
+    updatedTimestamp: new Date(),
   }
 
-  db.collection("buildings")
-  .doc(buildingData.buildingID)
-  .set(buildingData)
-  .then(function(docRef) {
-  //   console.log("Document written with ID: ", docRef.id);
-    countWritten += 1;
-    console.log("Count written: ", countWritten);
-    console.log("Building ID: ", buildingData.buildingID);
-    console.log("ID With End: ", buildingData.IDWithEnd);
-
-    // const currentBuilding = db.collection("buildings_ANYA_TEST").doc(docRef.id);
-
-    // return currentBuilding.update({
-    //   docRefID: docRef.id
-    })
-    // .then(() => {
-    //   console.log("Document successfully updated with id: ", docRef.id);
-    //   countUpdated += 1;
-    //   console.log("Count updated: ", countUpdated);
-    // })
-    // .catch((error) => {
-    //   console.error("Error updating document: ", error);
-    // });
-  // })
-  .catch(function(error) {
-    console.error("Error adding document: ", error);
-  });
+  try {
+    await setDoc(doc(db, "buildings", buildingData.buildingID), buildingData);
+    console.log("Successfully set building doc with BuildingID:: ", buildingData.buildingID);
+    successCount += 1;
+  } catch (error) {
+    console.error(`Error adding document with buildingID ${buildingData.buildingID}: `, error);
+    errorCount += 1;
+  } finally {
+    totalCount += 1;
+    console.log(`Total successful writes: ${successCount} out of ${totalCount}`);
+    console.log("---------");
+  }
 });
