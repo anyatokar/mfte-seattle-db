@@ -1,4 +1,4 @@
-import buildings from "./db/buildings_2024_02.json" assert { type: 'json' };
+import buildings from "./db/buildings_2024_02.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
 
@@ -10,7 +10,7 @@ const firebaseConfig = {
   storageBucket: process.env.REACT_APP_SB,
   messagingSenderId: process.env.REACT_APP_SID,
   appId: process.env.REACT_APP_APPID,
-  measurementId: process.env.REACT_APP_MID
+  measurementId: process.env.REACT_APP_MID,
 };
 
 const app = initializeApp(firebaseConfig);
@@ -28,7 +28,7 @@ let totalCount = 0;
 
   All data are strings except lat, lng which must be a number for mapping.
 */
-buildings.map(async function(obj) {
+buildings.map(async function (obj) {
   const buildingData = {
     buildingID: obj.buildingID,
     dateCode: obj.dateCode,
@@ -38,11 +38,12 @@ buildings.map(async function(obj) {
     phone2: obj.phone2,
     residentialTargetedArea: obj.residentialTargetedArea,
     totalRestrictedUnits: obj.totalRestrictedUnits,
-    sedu: (obj.sedu === "0") ? 0 : obj.sedu,
-    studioUnits: (obj.studioUnits === "0") ? 0 : obj.studioUnits,
-    oneBedroomUnits: (obj.oneBedroomUnits === "0") ? 0 : obj.oneBedroomUnits,
-    twoBedroomUnits: (obj.twoBedroomUnits === "0") ? 0 : obj.twoBedroomUnits,
-    threePlusBedroomUnits: (obj.threePlusBedroomUnits === "0") ? 0 : obj.threePlusBedroomUnits,
+    sedu: obj.sedu === "0" ? 0 : obj.sedu,
+    studioUnits: obj.studioUnits === "0" ? 0 : obj.studioUnits,
+    oneBedroomUnits: obj.oneBedroomUnits === "0" ? 0 : obj.oneBedroomUnits,
+    twoBedroomUnits: obj.twoBedroomUnits === "0" ? 0 : obj.twoBedroomUnits,
+    threePlusBedroomUnits:
+      obj.threePlusBedroomUnits === "0" ? 0 : obj.threePlusBedroomUnits,
     urlForBuilding: obj.urlForBuilding,
     lat: Number(obj.lat),
     lng: Number(obj.lng),
@@ -52,18 +53,26 @@ buildings.map(async function(obj) {
     state: obj.state,
     zip: obj.zip,
     updatedTimestamp: new Date(),
-  }
+  };
 
   try {
     await setDoc(doc(db, "buildings", buildingData.buildingID), buildingData);
-    console.log("Successfully set building doc with BuildingID: ", buildingData.buildingID);
+    console.log(
+      "Successfully set building doc with BuildingID: ",
+      buildingData.buildingID
+    );
     successCount += 1;
   } catch (error) {
-    console.error(`Error adding document with buildingID ${buildingData.buildingID}: `, error);
+    console.error(
+      `Error adding document with buildingID ${buildingData.buildingID}: `,
+      error
+    );
     errorCount += 1;
   } finally {
     totalCount += 1;
-    console.log(`Total successful writes: ${successCount} out of ${totalCount}`);
+    console.log(
+      `Total successful writes: ${successCount} out of ${totalCount}`
+    );
     console.log("---------");
   }
 });

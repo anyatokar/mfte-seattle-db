@@ -6,12 +6,12 @@
   "dependencies": {
     "firebase": "^10.7.0"
   },
-
   "engines": {
     "node": ">=18.0.0"
   },
   "scripts": {
-    "import-data": "node src/import.js"
+    "import-data": "node src/import.js",
+    "prettier": "prettier . -w"
   },
   "eslintConfig": {
     "extends": [
