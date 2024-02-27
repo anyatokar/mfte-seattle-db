@@ -5,5 +5,5 @@
 4. Update export filename in import file
 5. $ export each of the secret keys stored in LastPass
 6. In Firestore rules, change line 5 to 'allow read, write: if true;' (add write)
-7. $ npx ./src/db/import.js
+7. $ npm run node src/import.js
 8. Remove 'write' from Firestore db rules
