@@ -1,4 +1,6 @@
-const buildings = require('./buildings.json');
+import { timestampPT } from './generalUtils';
+
+const buildings = require('./buildings_10_2023.json');
 const firebase = require('firebase');
 require('firebase/firestore');
 
@@ -13,51 +15,70 @@ const firebaseConfig = {
   measurementId: process.env.REACT_APP_MID
 };
 
+// I AM CONFUSED ABOUT HOW THIS WORKS WITH NOTHING IN THE .ENV, does Exported overwrite?
+
 firebase.initializeApp(firebaseConfig);
 let countWritten = 0;
 let countUpdated = 0;
 const db = firebase.firestore();
 
+/*
+  https://firebase.google.com/docs/firestore/manage-data/add-data#set_a_document
+  If the document does not exist, it will be created.
+  If the document does exist, its contents will be overwritten with the newly provided data.
+
+  All data are strings except lat, lng which must be a number for mapping.
+*/
 buildings.forEach(function(obj) {
-  db.collection("buildings")
-  .add({
+  const buildingData = {
+    buildingID: obj.buildingID,
+    IDEnd: obj.IDEnd,
+    IDWithEnd: obj.IDWithEnd,
     buildingName: obj.buildingName,
     phone: obj.phone,
     phone2: obj.phone2,
     residentialTargetedArea: obj.residentialTargetedArea,
     totalRestrictedUnits: obj.totalRestrictedUnits,
-    sedu: obj.sedu,
-    studioUnits: obj.studioUnits,
-    oneBedroomUnits: obj.oneBedroomUnits,
-    twoBedroomUnits: obj.twoBedroomUnits,
-    threePlusBedroomUnits: obj.threePlusBedroomUnits,
+    sedu: (obj.sedu === "0") ? 0 : obj.sedu,
+    studioUnits: (obj.studioUnits === "0") ? 0 : obj.studioUnits,
+    oneBedroomUnits: (obj.oneBedroomUnits === "0") ? 0 : obj.oneBedroomUnits,
+    twoBedroomUnits: (obj.twoBedroomUnits === "0") ? 0 : obj.twoBedroomUnits,
+    threePlusBedroomUnits: (obj.threePlusBedroomUnits === "0") ? 0 : obj.threePlusBedroomUnits,
     urlForBuilding: obj.urlForBuilding,
-    lat: obj.lat,
-    lng: obj.lng,
+    lat: Number(obj.lat),
+    lng: Number(obj.lng),
     streetNum: obj.streetNum,
     street: obj.street,
     city: obj.city,
     state: obj.state,
-    zip: obj.zip
-  }).then(function(docRef) {
-    console.log("Document written with ID: ", docRef.id);
+    zip: obj.zip,
+    updatedTimestamp: timestampPT
+  }
+
+  db.collection("buildings")
+  .doc(buildingData.buildingID)
+  .set(buildingData)
+  .then(function(docRef) {
+  //   console.log("Document written with ID: ", docRef.id);
     countWritten += 1;
     console.log("Count written: ", countWritten);
+    console.log("Building ID: ", buildingData.buildingID);
+    console.log("ID With End: ", buildingData.IDWithEnd);
 
-    const currentBuilding = db.collection("buildings").doc(docRef.id);
+    // const currentBuilding = db.collection("buildings_ANYA_TEST").doc(docRef.id);
 
-    return currentBuilding.update({
-      buildingID: docRef.id
+    // return currentBuilding.update({
+    //   docRefID: docRef.id
     })
-    .then(() => {
-      console.log("Document successfully updated with id: ", docRef.id);
-      countUpdated += 1;
-      console.log("Count updated: ", countUpdated);
-    })
-    .catch((error) => {
-      console.error("Error updating document: ", error);
-    });
-  })
+    // .then(() => {
+    //   console.log("Document successfully updated with id: ", docRef.id);
+    //   countUpdated += 1;
+    //   console.log("Count updated: ", countUpdated);
+    // })
+    // .catch((error) => {
+    //   console.error("Error updating document: ", error);
+    // });
+  // })
   .catch(function(error) {
     console.error("Error adding document: ", error);
   });
