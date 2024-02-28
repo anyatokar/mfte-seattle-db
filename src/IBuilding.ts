@@ -1,7 +1,7 @@
 export default interface IBuilding {
   buildingID: string;
-  dateCode: string,
-  IDWithDataCode: string,
+  dateCode: string;
+  IDWithDataCode: string;
   buildingName: string;
   phone: string;
   phone2: string;

@@ -59,7 +59,10 @@ buildings.map(async function (obj) {
 
   try {
     // "buildings" is the prod collection. Change it to test
-    await setDoc(doc(db, "buildingsTEST", buildingData.buildingID), buildingData);
+    await setDoc(
+      doc(db, "buildingsTEST", buildingData.buildingID),
+      buildingData
+    );
     console.log(
       "Successfully set building doc with BuildingID: ",
       buildingData.buildingID
