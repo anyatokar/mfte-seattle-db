@@ -1,7 +1,8 @@
 // README Step 5: Change this to the updated json
-import buildings from "./BuildingJSONS/buildings_2024_02.json" assert { type: "json" };
+import buildings from "./BuildingJSONs/buildings_2024_02.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
+import IBuilding from "./IBuilding";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_APIKEY,
@@ -54,7 +55,7 @@ buildings.map(async function (obj) {
     state: obj.state,
     zip: obj.zip,
     updatedTimestamp: new Date(),
-  };
+  } as IBuilding;
 
   try {
     // "buildings" is the prod collection. Change it to test
