@@ -3,7 +3,7 @@
 3. Add the JSON to this repo's BuildingJSONS directory
 4. Make sure there are no null buildingIDs - happens if there are blanks in the spreadsheet.
 5. Update export filename in import file
-6. $ export each of the secret keys stored in LastPass
+6. $ export the secret keys stored in LastPass
 7. In Firestore rules, change line 5 to 'allow read, write: if true;' (add write)
 8. $ yarn import-data
 9. Remove 'write' from Firestore db rules
