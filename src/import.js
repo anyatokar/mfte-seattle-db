@@ -1,4 +1,5 @@
-import buildings from "./db/buildings_2024_02.json" assert { type: "json" };
+// README Step 5: Change this to the updated json
+import buildings from "./BuildingJSONS/buildings_2024_02.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
 
@@ -56,7 +57,8 @@ buildings.map(async function (obj) {
   };
 
   try {
-    await setDoc(doc(db, "buildings", buildingData.buildingID), buildingData);
+    // "buildings" is the prod collection. Change it to test
+    await setDoc(doc(db, "buildingsTEST", buildingData.buildingID), buildingData);
     console.log(
       "Successfully set building doc with BuildingID: ",
       buildingData.buildingID
