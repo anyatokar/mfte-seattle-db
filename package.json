@@ -10,7 +10,7 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "import-data": "node src/import.js",
+    "import-data": "npx tsx src/import.ts",
     "prettier": "prettier . -w"
   },
   "eslintConfig": {
