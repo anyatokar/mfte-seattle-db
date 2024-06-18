@@ -4,9 +4,9 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc, Timestamp } from "firebase/firestore";
 import IBuilding, {
   amiDataType,
-  originalFieldsType,
   percentBreakdownType,
 } from "./types_and_interfaces/IBuilding";
+import { originalFieldsType } from "./types_and_interfaces/originalFieldsType";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_APIKEY,
