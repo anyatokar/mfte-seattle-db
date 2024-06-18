@@ -40,7 +40,6 @@ function formatAmiData(obj: originalFieldsType): amiDataType {
     return acc;
   }, {} as amiDataType);
 
-  console.log(result);
   return result;
 }
 /*
