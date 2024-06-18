@@ -1,8 +1,12 @@
 // README Step 5: Change this to the updated json
-import buildings from "./BuildingJSONs/buildings_2024_04.json" assert { type: "json" };
+import buildings from "./BuildingJSONs/buildings_2024_04_AMI.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
-import { getFirestore, doc, setDoc } from "firebase/firestore";
-import IBuilding from "./IBuilding";
+import { getFirestore, doc, setDoc, Timestamp } from "firebase/firestore";
+import IBuilding, {
+  amiDataType,
+  percentBreakdownType,
+} from "./types_and_interfaces/IBuilding";
+import { originalFieldsType } from "./types_and_interfaces/originalFieldsType";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_APIKEY,
@@ -23,18 +27,37 @@ let successCount = 0;
 let errorCount = 0;
 let totalCount = 0;
 
+function formatAmiData(obj: originalFieldsType): amiDataType {
+  const amiValues = [30, 40, 50, 60, 65, 70, 75, 80, 85, 90];
+  const types = ["micro", "studio", "oneBed", "twoBed", "threePlusBed"];
+
+  const result = types.reduce((acc, type) => {
+    acc[type] = amiValues.reduce((innerAcc, val) => {
+      const key = `ami_${val}_${type}`;
+      innerAcc[val] = obj[key] ? Number(obj[key]) : null;
+      return innerAcc;
+    }, {} as percentBreakdownType);
+    return acc;
+  }, {} as amiDataType);
+
+  return result;
+}
 /*
   https://firebase.google.com/docs/firestore/manage-data/add-data#set_a_document
   If the document does not exist, it will be created.
   If the document does exist, its contents will be overwritten with the newly provided data.
 
-  All data are strings except lat, lng which must be a number for mapping.
+  All data are strings except:
+  - if sedu/seduUnits/oneBedroomUnits etc is 0 (otherwise it's a string),
+  - lat, lng which must be a number for mapping, and
+  - amiData values.
 */
-buildings.map(async function (obj) {
-  const buildingData = {
+// Function to convert originalFieldsType to IBuilding
+function convertToIBuilding(obj: originalFieldsType): IBuilding {
+  return {
     buildingID: obj.buildingID,
     dateCode: obj.dateCode,
-    IDWithDataCode: obj.IDWithDateCode,
+    IDWithDateCode: obj.IDWithDateCode,
     buildingName: obj.buildingName,
     phone: obj.phone,
     phone2: obj.phone2,
@@ -47,18 +70,22 @@ buildings.map(async function (obj) {
     threePlusBedroomUnits:
       obj.threePlusBedroomUnits === "0" ? 0 : obj.threePlusBedroomUnits,
     urlForBuilding: obj.urlForBuilding,
-    lat: Number(obj.lat),
-    lng: Number(obj.lng),
+    lat: parseFloat(obj.lat),
+    lng: parseFloat(obj.lng),
     streetNum: obj.streetNum,
     street: obj.street,
     city: obj.city,
     state: obj.state,
     zip: obj.zip,
-    updatedTimestamp: new Date(),
-  } as IBuilding;
+    updatedTimestamp: Timestamp.fromDate(new Date()),
+    amiData: formatAmiData(obj),
+    streetAddress: obj.streetAddress,
+  };
+}
 
+// Function to handle Firestore operations
+async function processBuilding(buildingData: IBuilding) {
   try {
-    // "buildings" is the prod collection. By default set to buildingsTEST.
     await setDoc(
       doc(db, "buildingsTEST", buildingData.buildingID),
       buildingData
@@ -81,4 +108,17 @@ buildings.map(async function (obj) {
     );
     console.log("---------");
   }
-});
+}
+
+// Process all buildings
+async function processAllBuildings(buildings: originalFieldsType[]) {
+  const buildingPromises = buildings.map(async (obj) => {
+    const buildingData = convertToIBuilding(obj);
+    await processBuilding(buildingData);
+  });
+  await Promise.all(buildingPromises);
+}
+
+processAllBuildings(buildings).catch((error) =>
+  console.error("Error processing buildings: ", error)
+);
