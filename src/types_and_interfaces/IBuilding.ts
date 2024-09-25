@@ -1,24 +1,14 @@
 import { Timestamp } from "firebase/firestore";
 
-export type percentBreakdownType = {
-  30: number | null;
-  40: number | null;
-  50: number | null;
-  60: number | null;
-  65: number | null;
-  70: number | null;
-  75: number | null;
-  80: number | null;
-  85: number | null;
-  90: number | null;
-};
+export type amiPercentageType = 30 | 40 | 50 | 60 | 65 | 70 | 75 | 80 | 85 | 90;
+export type numBedroomsType = "micro" | "studio" | "oneBed" | "twoBed" | "threePlusBed";
 
 export type amiDataType = {
-  micro: percentBreakdownType;
-  studio: percentBreakdownType;
-  oneBed: percentBreakdownType;
-  twoBed: percentBreakdownType;
-  threePlusBed: percentBreakdownType;
+  micro: amiPercentageType[];
+  studio: amiPercentageType[];
+  oneBed: amiPercentageType[];
+  twoBed: amiPercentageType[];
+  threePlusBed: amiPercentageType[];
 };
 
 export default interface IBuilding {
@@ -36,8 +26,8 @@ export default interface IBuilding {
   twoBedroomUnits: 0 | string;
   threePlusBedroomUnits: 0 | string;
   urlForBuilding: string;
-  lat: number | null;
-  lng: number | null;
+  lat: number;
+  lng: number;
   streetNum: string;
   street: string;
   city: string;
