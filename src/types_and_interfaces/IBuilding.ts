@@ -34,7 +34,6 @@ export default interface IBuilding {
   state: string;
   zip: string;
   updatedTimestamp: Timestamp;
-
   streetAddress: string;
   amiData: amiDataType;
 }
