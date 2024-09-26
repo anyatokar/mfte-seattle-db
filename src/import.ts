@@ -43,6 +43,7 @@ function formatAmiData(obj: originalFieldsType): amiDataType[] {
 
   for (let unitSize of unitSizes) {
     const existingPercents: amiPercentageType[] = [];
+
     for (let percent of amiPercents) {
       const key = `ami_${percent}_${unitSize}`;
 
@@ -50,6 +51,7 @@ function formatAmiData(obj: originalFieldsType): amiDataType[] {
         existingPercents.push(percent);
       }
     }
+
     amiData.push({
       unitSize: unitSize,
       amiPercentages: existingPercents,
