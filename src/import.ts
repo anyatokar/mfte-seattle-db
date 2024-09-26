@@ -52,10 +52,12 @@ function formatAmiData(obj: originalFieldsType): amiDataType[] {
       }
     }
 
-    amiData.push({
-      unitSize: unitSize,
-      amiPercentages: existingPercents,
-    } as amiDataType);
+    if (existingPercents.length > 0) {
+      amiData.push({
+        unitSize: unitSize,
+        amiPercentages: existingPercents,
+      } as amiDataType);
+    }
   }
 
   return amiData;
