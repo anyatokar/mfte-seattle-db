@@ -1,14 +1,15 @@
 import { Timestamp } from "firebase/firestore";
-
+export type unitSizeType =
+  | "micro"
+  | "studio"
+  | "oneBed"
+  | "twoBed"
+  | "threePlusBed";
 export type amiPercentageType = 30 | 40 | 50 | 60 | 65 | 70 | 75 | 80 | 85 | 90;
-export type numBedroomsType = "micro" | "studio" | "oneBed" | "twoBed" | "threePlusBed";
 
 export type amiDataType = {
-  micro: amiPercentageType[];
-  studio: amiPercentageType[];
-  oneBed: amiPercentageType[];
-  twoBed: amiPercentageType[];
-  threePlusBed: amiPercentageType[];
+  unitSize: unitSizeType;
+  amiPercentages: amiPercentageType[];
 };
 
 export default interface IBuilding {
@@ -35,5 +36,6 @@ export default interface IBuilding {
   zip: string;
   updatedTimestamp: Timestamp;
   streetAddress: string;
-  amiData: amiDataType;
+  /** This is an array to keep the order from smallest to largest on render. */
+  amiData: amiDataType[];
 }

@@ -2,7 +2,11 @@
 import buildings from "./BuildingJSONs/buildings_yesler_towers.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc, Timestamp } from "firebase/firestore";
-import IBuilding, { amiDataType, amiPercentageType, numBedroomsType }  from "./types_and_interfaces/IBuilding";
+import IBuilding, {
+  amiDataType,
+  amiPercentageType,
+  unitSizeType,
+} from "./types_and_interfaces/IBuilding";
 import { originalFieldsType } from "./types_and_interfaces/originalFieldsType";
 
 const firebaseConfig = {
@@ -24,26 +28,35 @@ let successCount = 0;
 let errorCount = 0;
 let totalCount = 0;
 
-function formatAmiData(obj: originalFieldsType): amiDataType {
-  const unitSizes: numBedroomsType[] = ["micro", "studio", "oneBed", "twoBed", "threePlusBed"];
-  const amiPercents: amiPercentageType[] = [30, 40, 50, 60, 65, 70, 75, 80, 85, 90];
+function formatAmiData(obj: originalFieldsType): amiDataType[] {
+  const amiPercents: amiPercentageType[] = [
+    30, 40, 50, 60, 65, 70, 75, 80, 85, 90,
+  ];
+  const unitSizes: unitSizeType[] = [
+    "micro",
+    "studio",
+    "oneBed",
+    "twoBed",
+    "threePlusBed",
+  ];
+  const amiData: amiDataType[] = [];
 
-  const amiData = {};
-
-  for (let unit of unitSizes) {
+  for (let unitSize of unitSizes) {
+    const existingPercents: amiPercentageType[] = [];
     for (let percent of amiPercents) {
-      const key = `ami_${percent}_${unit}`;
+      const key = `ami_${percent}_${unitSize}`;
+
       if (obj[key] === "1") {
-        if (amiData[unit]) {
-          amiData[unit].push(percent);
-        } else {
-          amiData[unit] = [percent];
-        }
-      } 
+        existingPercents.push(percent);
+      }
     }
+    amiData.push({
+      unitSize: unitSize,
+      amiPercentages: existingPercents,
+    } as amiDataType);
   }
 
-  return amiData as amiDataType;
+  return amiData;
 }
 
 /*
