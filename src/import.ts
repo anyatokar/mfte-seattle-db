@@ -1,11 +1,8 @@
 // README Step 5: Change this to the updated json
-import buildings from "./BuildingJSONs/buildings_2024_04_AMI.json" assert { type: "json" };
+import buildings from "./BuildingJSONs/buildings_yesler_towers.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc, Timestamp } from "firebase/firestore";
-import IBuilding, {
-  amiDataType,
-  percentBreakdownType,
-} from "./types_and_interfaces/IBuilding";
+import IBuilding, { amiDataType, amiPercentageType, numBedroomsType }  from "./types_and_interfaces/IBuilding";
 import { originalFieldsType } from "./types_and_interfaces/originalFieldsType";
 
 const firebaseConfig = {
@@ -28,20 +25,27 @@ let errorCount = 0;
 let totalCount = 0;
 
 function formatAmiData(obj: originalFieldsType): amiDataType {
-  const amiValues = [30, 40, 50, 60, 65, 70, 75, 80, 85, 90];
-  const types = ["micro", "studio", "oneBed", "twoBed", "threePlusBed"];
+  const unitSizes: numBedroomsType[] = ["micro", "studio", "oneBed", "twoBed", "threePlusBed"];
+  const amiPercents: amiPercentageType[] = [30, 40, 50, 60, 65, 70, 75, 80, 85, 90];
 
-  const result = types.reduce((acc, type) => {
-    acc[type] = amiValues.reduce((innerAcc, val) => {
-      const key = `ami_${val}_${type}`;
-      innerAcc[val] = obj[key] ? Number(obj[key]) : null;
-      return innerAcc;
-    }, {} as percentBreakdownType);
-    return acc;
-  }, {} as amiDataType);
+  const amiData = {};
 
-  return result;
+  for (let unit of unitSizes) {
+    for (let percent of amiPercents) {
+      const key = `ami_${percent}_${unit}`;
+      if (obj[key] === "1") {
+        if (amiData[unit]) {
+          amiData[unit].push(percent);
+        } else {
+          amiData[unit] = [percent];
+        }
+      } 
+    }
+  }
+
+  return amiData as amiDataType;
 }
+
 /*
   https://firebase.google.com/docs/firestore/manage-data/add-data#set_a_document
   If the document does not exist, it will be created.
