@@ -1,0 +1,626 @@
+[
+  {
+    "buildingID": "lB8ZeNSi91JTgqpUfJs9",
+    "buildingName": "Alcove Ballard",
+    "buildingUrl": "https://www.arboreal.management/property-page/seattle/alcove-ballard-apartments",
+    "email": "admin@arboreal.management"
+  },
+  {
+    "buildingID": "5qrQioN9kap4ZskWxfrN",
+    "buildingName": "Solo Lofts",
+    "buildingUrl": "http://www.apartments.com/solo-lofts-seattle-wa/ntg9ttq/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Fsolo-lofts-seattle-wa%2Fntg9ttq%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A2018%20NW%2057th%20St%0D%0ASeattle%2C%20WA%2098107%0D%0A%0D%0A1%20-%202%20bd%0D%0A1%20-%202%20ba%0D%0A%241%2C650%20-%20%242%2C850"
+  },
+  {
+    "buildingID": "EBVnVgSXkQAmASAXwdFZ",
+    "buildingName": "East Union",
+    "buildingUrl": "http://www.eastunionseattle.com/",
+    "email": "EastUnion.PropertyWebsite.Thrive@aptleasing.info"
+  },
+  {
+    "buildingID": "GUxzq1lmHtYhEFC3jcnB",
+    "buildingName": "Madison 2.0",
+    "buildingUrl": "http://www.cornellandassociates.com/capitol-hill/madison-20-apartments",
+    "email": "madison2.0@cornellandassociates.com?subject=Madison%202.0%20Apartments"
+  },
+  {
+    "buildingID": "MFK1P34ayk30ikBTwmAH",
+    "buildingName": "Liv at East John",
+    "buildingUrl": "http://www.cornellandassociates.com/capitol-hill/1113-east-john-apartments",
+    "email": "eastjohn@cornellandassociates.com"
+  },
+  {
+    "buildingID": "FDmkAZDwiKXKuQo1aXAA",
+    "buildingName": "Alturra aPodments",
+    "buildingUrl": "http://www.apodment.com/seattle/alturra/conventional/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "jykOjiQTsYmqYEjV99TH",
+    "buildingName": "Base Capitol Hill",
+    "buildingUrl": "https://www.arboreal.management/property-page/seattle/capitol-hill/base-capitol-hill",
+    "email": "admin@arboreal.management"
+  },
+  {
+    "buildingID": "sHWqLOxk7yXm7WZZROpM",
+    "buildingName": "Capitol Core",
+    "buildingUrl": "http://www.apartments.com/215-boylston-ave-e-seattle-wa/ndtybeq/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2F215-boylston-ave-e-seattle-wa%2Fndtybeq%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A215%20Boylston%20Ave%20E%0D%0ASeattle%2C%20WA%2098102%0D%0A%0D%0AStudio%20bd%0D%0A1%20ba%0D%0A%24950"
+  },
+  {
+    "buildingID": "nulBsw0zCJqSPJQP5rZ3",
+    "buildingName": "Centro aPodments",
+    "buildingUrl": "http://www.apodment.com/seattle/centro/conventional/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "hoU8lcveA5NJ1WJPem1a",
+    "buildingName": "Cortena aPodments",
+    "buildingUrl": "http://www.apodment.com/seattle/cortena/conventional/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "fsObXMM5RqSbGvhjxEH8",
+    "buildingName": "Ilaria aPodments",
+    "buildingUrl": "http://www.apodment.com/seattle/ilaria/conventional/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "vOPyTWfrr0Jps01DWnX9",
+    "buildingName": "Lexicon",
+    "buildingUrl": "http://www.apartments.com/lexicon-seattle-wa/7mnvd7x/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Flexicon-seattle-wa%2F7mnvd7x%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A120%20Harvard%20Ave%20E%0D%0ASeattle%2C%20WA%2098102%0D%0A%0D%0A1%20bd%0D%0A1%20ba%0D%0A%241%2C695%20-%20%241%2C850"
+  },
+  {
+    "buildingID": "TUMOsW2raBIZAlGuc6Ct",
+    "buildingName": "Modera Broadway (North)",
+    "buildingUrl": "http://www.moderabroadway.com/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "UQSO95ZqBXG05JAohz6u",
+    "buildingName": "Modera Broadway (South)",
+    "buildingUrl": "http://www.moderabroadway.com/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "YHu1WwV27TkKRwQvx3Tq",
+    "buildingName": "OneOne6",
+    "buildingUrl": "https://www.arboreal.management/property-page/seattle/oneone6",
+    "email": "admin@arboreal.management"
+  },
+  {
+    "buildingID": "EukZVRjeLdTYTFotZqW9",
+    "buildingName": "Pivot",
+    "buildingUrl": "http://www.oriapts.com/pivot/",
+    "email": "stoneway@oriapts.com"
+  },
+  {
+    "buildingID": "UHwqK6777eUfs9KMSrls",
+    "buildingName": "Ramiro's Place",
+    "buildingUrl": "https://www.arboreal.management/property-page/seattle/ramiros-place",
+    "email": "admin@arboreal.management"
+  },
+  {
+    "buildingID": "K63Fxf8t1qt5nLVBVjmF",
+    "buildingName": "Solis",
+    "buildingUrl": "http://www.livesolis.com/",
+    "email": "solis@guidepm.com"
+  },
+  {
+    "buildingID": "ZIMZ4eux3M8oogigIyTn",
+    "buildingName": "Perch",
+    "buildingUrl": "http://www.theperchcapitolhill.com/",
+    "email": "info@theperchcapitolhill.com"
+  },
+  {
+    "buildingID": "THJeOeEXOzv1ZvnnbgAO",
+    "buildingName": "Fifteen",
+    "buildingUrl": "http://www.thefifteencapitolhill.com/",
+    "email": "info@thefifteencapitolhill.com"
+  },
+  {
+    "buildingID": "oYj4OOJC1r0ihKmRPp2t",
+    "buildingName": "Local 418",
+    "buildingUrl": "http://www.thelocalapartments.com/",
+    "email": "thelocalapartments@incityinc.com"
+  },
+  {
+    "buildingID": "4l9Qj6KaFb2QTM0hAMkj",
+    "buildingName": "Local 422",
+    "buildingUrl": "http://www.thelocalapartments.com/",
+    "email": "thelocalapartments@incityinc.com"
+  },
+  {
+    "buildingID": "W9cezHlsjWI5akTS2q5t",
+    "buildingName": "TOD",
+    "buildingUrl": "https://www.arboreal.management/property-page/seattle/capitol-hill/tod-apartments",
+    "email": "admin@arboreal.management"
+  },
+  {
+    "buildingID": "BM3LSwgpV5uwOHWfArxG",
+    "buildingName": "Yardhouse",
+    "buildingUrl": "http://www.yardhouseapartments.com/",
+    "email": "info@yardhouseapartments.com"
+  },
+  {
+    "buildingID": "PlJIHOUe3Rb1KF6WTnVR",
+    "buildingName": "Zephyr",
+    "buildingUrl": "http://www.zephyrseattle.com/",
+    "email": "live@zephyrseattle.com"
+  },
+  {
+    "buildingID": "IexPZX2b5bD2SVvXi4fy",
+    "buildingName": "1410 S King St",
+    "buildingUrl": "http://www.apartments.com/0-bedroom-in-seattle-wa-98144-seattle-wa-unit-apt-4/5r7bvsq/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2F1410-s-king-st-seattle-wa-unit-apt-4%2F5r7bvsq%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A1410%20S%20King%20St%0D%0ASeattle%2C%20WA%2098144%0D%0A%0D%0AStudio%20bd%0D%0A1%20ba%0D%0A%241%2C375"
+  },
+  {
+    "buildingID": "QsD3tLQUbQ81inWqvpyW",
+    "buildingName": "Midtown Flats",
+    "buildingUrl": "http://www.cornellandassociates.com/north-seattle/midtown-flats",
+    "email": "midtownflats@cornellandassociates.com"
+  },
+  {
+    "buildingID": "KYQgy8ccjwZLujtBDfgD",
+    "buildingName": "Pratt Park",
+    "buildingUrl": "http://www.home.securityproperties.com/prattpark/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "RUFy0uVGgb445vEy6EMO",
+    "buildingName": "Roost",
+    "buildingUrl": "http://www.theroostlofts.com/",
+    "email": "theroost@guidepm.com"
+  },
+  {
+    "buildingID": "MJo1qYwZCf99kMaKxMna",
+    "buildingName": "Valley Building",
+    "buildingUrl": "http://www.thevalleybuilding.com/",
+    "email": "info@madronacompany.com"
+  },
+  {
+    "buildingID": "1O0jHCrrTAtFoxiTlwGG",
+    "buildingName": "Betula House",
+    "buildingUrl": "http://www.betulahouse.com/",
+    "email": "info@betulahouse.com"
+  },
+  {
+    "buildingID": "XguagSRWStK54LAeK2fu",
+    "buildingName": "Hana",
+    "buildingUrl": "http://www.home.securityproperties.com/hana/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "PVuNGtVHrgSptDYKJ9Lr",
+    "buildingName": "Publix",
+    "buildingUrl": "http://www.publixseattle.com/",
+    "email": "info@publixseattle.com"
+  },
+  {
+    "buildingID": "CWGnzftOCSgbhE4tDTES",
+    "buildingName": "CityLine",
+    "buildingUrl": "http://www.udr.com/seattle-apartments/columbia-city/cityline/affordable-housing/",
+    "email": "CityLineBMR@udr.com"
+  },
+  {
+    "buildingID": "dO6bRTRKAZsG0UkaARzV",
+    "buildingName": "Green Leaf Encore",
+    "buildingUrl": "http://www.greenleafencore.com/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "pMrqVRTZhahTZymOS0Ke",
+    "buildingName": "Edric",
+    "buildingUrl": "http://www.edricapts.com/",
+    "email": "info@edricapts.com"
+  },
+  {
+    "buildingID": "sYwCWgCLvZOb3AKHuJcJ",
+    "buildingName": "LivingStone",
+    "buildingUrl": "https://thelivingstoneapts.com/",
+    "email": "parker@bonavistamgmt.com?subject=The%20Livingstone%20Apartments%20-%20Inquiry"
+  },
+  {
+    "buildingID": "o34CvQZQabQM7CrT0MPB",
+    "buildingName": "Westward",
+    "buildingUrl": "http://www.apartments.com/elegant-efficient-studios-in-beautiful-de-seattle-wa/4h62h0h/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Felegant-efficient-studios-in-beautiful-de-seattle-wa%2F4h62h0h%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A4546%20Delridge%20Way%20SW%0D%0ASeattle%2C%20WA%2098106%0D%0A%0D%0AStudio%20bd%0D%0A1%20ba%0D%0A%24925%20-%20%24995"
+  },
+  {
+    "buildingID": "hsLJc7NQf14cEc6Ji4wg",
+    "buildingName": "A.W. Larson Building",
+    "buildingUrl": "http://www.larsoneastlake.com/",
+    "email": "awl@m.knck.io"
+  },
+  {
+    "buildingID": "sE8GBFqk8gbajDJVVSNf",
+    "buildingName": "Cypress",
+    "buildingUrl": "http://www.seattlecypress.com/",
+    "email": "GST36P06_website.email@slopejet.net"
+  },
+  {
+    "buildingID": "hAtsssCo6LEj051XlWPG",
+    "buildingName": "Lime Fremont Studios",
+    "buildingUrl": "http://www.limefremont.com/",
+    "email": "info@limefremont.com"
+  },
+  {
+    "buildingID": "l5U4ekryFGk25juxMOCK",
+    "buildingName": "Positano aPodments",
+    "buildingUrl": "http://www.apodment.com/seattle/positano/conventional/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "5Zed6CskG318Esdvmymn",
+    "buildingName": "Velo and Ray",
+    "buildingUrl": "http://www.essexapartmenthomes.com/apartments/seattle/velo-and-ray",
+    "email": "?body=https://www.essexapartmenthomes.com/apartments/seattle/velo-and-ray&subject=Share%20This%20Property"
+  },
+  {
+    "buildingID": "2eWigVdEH2WRgcJYub2H",
+    "buildingName": "Velo and Ray (Ray East)",
+    "buildingUrl": "http://www.essexapartmenthomes.com/apartments/seattle/velo-and-ray",
+    "email": "?body=https://www.essexapartmenthomes.com/apartments/seattle/velo-and-ray&subject=Share%20This%20Property"
+  },
+  {
+    "buildingID": "ntWOV4VdlDHlUuhJJrdm",
+    "buildingName": "Velo and Ray (Velo)",
+    "buildingUrl": "http://www.essexapartmenthomes.com/apartments/seattle/velo-and-ray",
+    "email": "?body=https://www.essexapartmenthomes.com/apartments/seattle/velo-and-ray&subject=Share%20This%20Property"
+  },
+  {
+    "buildingID": "uGMTSqCGSNPF35YEutPW",
+    "buildingName": "Helene",
+    "buildingUrl": "http://www.helenegreenlake.com/",
+    "email": "info@pacificviewseattle.com"
+  },
+  {
+    "buildingID": "nxQDLyGlsPQEFzYIcNH6",
+    "buildingName": "Cypress Greenwood",
+    "buildingUrl": "https://seattlecypress.com/",
+    "email": "GST36P06_website.email@slopejet.net"
+  },
+  {
+    "buildingID": "FddUM00AUXWT2gTSDeKZ",
+    "buildingName": "Janus",
+    "buildingUrl": "http://www.janusapartments.com/",
+    "email": "community-wirjl@aptprospect.com"
+  },
+  {
+    "buildingID": "S0mJk9RsBscPWILdlrmo",
+    "buildingName": "Crane at Interbay",
+    "buildingUrl": "http://www.craneinterbay.com/",
+    "email": "LIVE@CRANEINTERBAY.COM"
+  },
+  {
+    "buildingID": "qMHOUwMdreWR33mESnfD",
+    "buildingName": "Werner",
+    "buildingUrl": "http://www.thewernerapartments.com/",
+    "email": "wernerapts-w@m.knck.io"
+  },
+  {
+    "buildingID": "npSMlXxx1huSnlKRaTUe",
+    "buildingName": "Mysa",
+    "buildingUrl": "https://www.oriapts.com/mysa/",
+    "email": "info@oriapts.com"
+  },
+  {
+    "buildingID": "TiaaEHKW4ai0AytJINlA",
+    "buildingName": "Bode 125",
+    "buildingUrl": "http://www.livingbode.com/all-properties/bode-125",
+    "email": "info@livingbode.com"
+  },
+  {
+    "buildingID": "OtLUK7U6nLcRCgo0ehm0",
+    "buildingName": "Bode 88",
+    "buildingUrl": "http://www.livingbode.com/all-properties/bode-greenlake",
+    "email": "info@livingbode.com"
+  },
+  {
+    "buildingID": "YblcQnxVL8SmvyqReDDi",
+    "buildingName": "Galloway",
+    "buildingUrl": "http://www.apartments.com/gallaway-apartments-seattle-wa/l9sj7ld/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Fgallaway-apartments-seattle-wa%2Fl9sj7ld%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A1126%20N%2090th%20St%0D%0ASeattle%2C%20WA%2098103%0D%0A%0D%0A1%20bd%0D%0A1%20ba%0D%0ACall%20for%20Rent"
+  },
+  {
+    "buildingID": "8Czpib9CN11leMyYcQ9L",
+    "buildingName": "Denning",
+    "buildingUrl": "http://www.apartments.com/the-denning-seattle-wa/ngpfgvn/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Fthe-denning-seattle-wa%2Fngpfgvn%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A1636%20S%20Mcclellan%20St%0D%0ASeattle%2C%20WA%2098144%0D%0A%0D%0AStudio%20-%201%20bd%0D%0A1%20ba%0D%0A%241%2C425%20-%20%242%2C100"
+  },
+  {
+    "buildingID": "NnpVtI6bznsGM5JYaG9X",
+    "buildingName": "Jefferson Station",
+    "buildingUrl": "http://www.stationseattle.com/",
+    "email": "info@stationseattle.com"
+  },
+  {
+    "buildingID": "IlOtxO5vQpsO23HCmheO",
+    "buildingName": "Melody Jabooda",
+    "buildingUrl": "http://www.melodyjabooda.com/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "8k5GurN9dlxggDPhKGSm",
+    "buildingName": "Innovative Living @ Roosevelt",
+    "buildingUrl": "http://www.apartments.com/817-ne-64th-st-seattle-wa/djx7gvk/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2F817-ne-64th-st-seattle-wa%2Fdjx7gvk%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A817%20NE%2064th%20St%0D%0ASeattle%2C%20WA%2098115%0D%0A%0D%0AStudio%20bd%0D%0A1%20ba%0D%0A%24995"
+  },
+  {
+    "buildingID": "uWXxF54SWtiq6PNaMWeV",
+    "buildingName": "6404 Roosevelt",
+    "buildingUrl": "http://www.cornellandassociates.com/green-lake/6404-roosevelt-apartments",
+    "email": "6404roosevelt@cornellandassociates.com"
+  },
+  {
+    "buildingID": "mADqPKOR507Z1NethkoE",
+    "buildingName": "Lucille on Roosevelt",
+    "buildingUrl": "http://www.lucilleonroosevelt.com/",
+    "email": "lucille@hiveapartments.com"
+  },
+  {
+    "buildingID": "aY335drSXoltsfaYzKJn",
+    "buildingName": "Renew Roosevelt",
+    "buildingUrl": "http://www.apartmentguide.com/apartments/Washington/Seattle/Renew-Roosevelt/lnp001E000000nypwwIAA/",
+    "email": "reportscam@rent.com?subject=Fraud%20listing%20-%206313%2015th%20Ave%20NE%3F&body=What%27s%20wrong%3A%0AListing%20Id%3A%20lnp001E000000nypwwIAA%0AListing%20Title%3A%20Renew%20Roosevelt%0AAddress%3A%206313%2015th%20Ave%20NE%2C%20Seattle%2C%20WA%2098115%0AListing%20URL%3A%20https%3A%2F%2Fwww.apartmentguide.com%2Fapartments%2FWashington%2FSeattle%2FRenew-Roosevelt%2Flnp001E000000nypwwIAA%2F%0AReport%20reason%3A%0A%0A%0A%0AThanks"
+  },
+  {
+    "buildingID": "hZKfqIFEWEM1l5vhXF8Q",
+    "buildingName": "Rise on 67th",
+    "buildingUrl": "http://www.riseflats.com/",
+    "email": "info@riseflats.com"
+  },
+  {
+    "buildingID": "J7egoA3NZcDwgi8LTRhk",
+    "buildingName": "Roosevelt Station",
+    "buildingUrl": "http://www.rooseveltstationapts.com/",
+    "email": "roosevelt-w@m.knck.io"
+  },
+  {
+    "buildingID": "isM8R20GKGmDOMIR8iBN",
+    "buildingName": "Theo",
+    "buildingUrl": "http://www.theoseattle.com/",
+    "email": "info@ironflats-theo.com"
+  },
+  {
+    "buildingID": "BDEyCLbfmC6o1NxNX0Lz",
+    "buildingName": "Vista 7011",
+    "buildingUrl": "http://www.apartments.com/vista-7011-seattle-wa/m1pke1l/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Fvista-7011-seattle-wa%2Fm1pke1l%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A7011%20Roosevelt%20Way%20NE%0D%0ASeattle%2C%20WA%2098115%0D%0A%0D%0AStudio%20-%201%20bd%0D%0A1%20ba%0D%0A%241%2C395%20-%20%241%2C945"
+  },
+  {
+    "buildingID": "9ICIYkcBJxyBSleQVThn",
+    "buildingName": "Modera South Lake Union",
+    "buildingUrl": "http://www.moderasouthlakeunion.com/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "DcPFxvgI3raMLPN28pp3",
+    "buildingName": "50th and Roosevelt",
+    "buildingUrl": "http://www.50roosevelt.com/",
+    "email": "management@sunsproperties.com"
+  },
+  {
+    "buildingID": "hX0w6CjQdNKJnvs6fgea",
+    "buildingName": "Augusta",
+    "buildingUrl": "http://www.home.securityproperties.com/augusta/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "qbO9wFjeacAgbHpF4K61",
+    "buildingName": "Parsonage",
+    "buildingUrl": "http://www.parsonageuw.com/",
+    "email": "parsonage@greystar.com"
+  },
+  {
+    "buildingID": "E0EiQU6GOOEfXxaNkyYX",
+    "buildingName": "Prexy",
+    "buildingUrl": "http://www.prexyseattle.com/",
+    "email": "info@prexyseattle.com"
+  },
+  {
+    "buildingID": "sfdmPoazbsugiU5QvT9w",
+    "buildingName": "Bridges at 11th",
+    "buildingUrl": "http://www.americancampus.com/student-apartments/wa/seattle/bridges-at-11th",
+    "email": "Bridges@AmericanCampus.com"
+  },
+  {
+    "buildingID": "QAeBhSQARMtXHngItzDw",
+    "buildingName": "Lightbox",
+    "buildingUrl": "http://www.udr.com/seattle-apartments/downtown-seattle/lightbox/affordable-housing/",
+    "email": "LightboxBMR@udr.com"
+  },
+  {
+    "buildingID": "Q4hnijpSwzdBZDkbbnXL",
+    "buildingName": "LOHAS",
+    "buildingUrl": "http://www.metmgmt.net/properties/details/47-7",
+    "email": "admin@metmgmt.net"
+  },
+  {
+    "buildingID": "ldYtp8P23rYFTWjVBH4i",
+    "buildingName": "NORA Building I (West)",
+    "buildingUrl": "http://www.liveatnora.com/mfte-housing/",
+    "email": "leasing@liveatnora.com"
+  },
+  {
+    "buildingID": "sMS5icvPfrcK1goBGSeb",
+    "buildingName": "NORA Building II (East)",
+    "buildingUrl": "http://www.liveatnora.com/mfte-housing/",
+    "email": "leasing@liveatnora.com"
+  },
+  {
+    "buildingID": "FelgWOncOKuSMiPM6xMd",
+    "buildingName": "Strada aPodments",
+    "buildingUrl": "http://www.apodment.com/seattle/strada/conventional/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "ojkBUpFkDg1It0LWQCCd",
+    "buildingName": "Venetia aPodments",
+    "buildingUrl": "http://www.apodment.com/seattle/venetia/conventional/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "kVjsfT9XyvuB0w2HpE4A",
+    "buildingName": "Brooklyn Boutique",
+    "buildingUrl": "http://www.apartments.com/brooklyn-boutique-apartments-seattle-wa/hh0hnz3/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Fbrooklyn-boutique-apartments-seattle-wa%2Fhh0hnz3%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A5246%20Brooklyn%20Ave%20NE%0D%0ASeattle%2C%20WA%2098105%0D%0A%0D%0A1%20bd%0D%0A1%20ba%0D%0ACall%20for%20Rent"
+  },
+  {
+    "buildingID": "IlCjAt3oqtMllFKQ1hOA",
+    "buildingName": "Studio 7",
+    "buildingUrl": "http://www.apartments.com/studio-7-seattle-wa/6etvs0t/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Fportage-bay-flats-affordable-studio-apar-seattle-wa%2F6etvs0t%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A4029%207th%20Ave%20NE%0D%0ASeattle%2C%20WA%2098105%0D%0A%0D%0AStudio%20bd%0D%0A1%20ba%0D%0A%241%2C195%20-%20%241%2C245"
+  },
+  {
+    "buildingID": "Az5nK7BGYdF1nMrpQyOR",
+    "buildingName": "Expo",
+    "buildingUrl": "http://www.essexapartmenthomes.com/apartments/seattle/expo",
+    "email": "?body=https://www.essexapartmenthomes.com/apartments/seattle/expo&subject=Share%20This%20Property"
+  },
+  {
+    "buildingID": "bvHKqboBq0IlAa28fJOJ",
+    "buildingName": "H2O",
+    "buildingUrl": "http://www.h2oseattle.com/",
+    "email": "info@h2oseattle.com"
+  },
+  {
+    "buildingID": "fxT0zPCL11hWxT0PPjRY",
+    "buildingName": "Kirin",
+    "buildingUrl": "http://www.kirinseattle.com/",
+    "email": "hello@kirinseattle.com"
+  },
+  {
+    "buildingID": "2XU2ulMUrdBL1N27xNiC",
+    "buildingName": "Bode Uptown",
+    "buildingUrl": "http://www.livingbode.com/all-properties/bode-uptown",
+    "email": "info@livingbode.com"
+  },
+  {
+    "buildingID": "732IKNGzWWzYymD2zLqd",
+    "buildingName": "Liv Wallingford",
+    "buildingUrl": "http://www.cornellandassociates.com/wallingford/1240-wallingford-apartments",
+    "email": "1240wallingford@cornellandassociates.com"
+  },
+  {
+    "buildingID": "4VogeyUDxIHofmnt5vce",
+    "buildingName": "4025 Stone",
+    "buildingUrl": "http://www.cornellandassociates.com/wallingford/4025-stone-apartments",
+    "email": "4025stone@cornellandassociates.com"
+  },
+  {
+    "buildingID": "p2F67LpvwwJRk5invum6",
+    "buildingName": "Noble",
+    "buildingUrl": "http://www.home.securityproperties.com/thenoble/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "gyoD7nsNM0VZzR0xlfBC",
+    "buildingName": "Ori Stone Way",
+    "buildingUrl": "http://www.oriapts.com/ori-stone-way/",
+    "email": "stoneway@oriapts.com"
+  },
+  {
+    "buildingID": "r60L8fsNrgRI6sWENnX3",
+    "buildingName": "Wallingford Studios",
+    "buildingUrl": "http://www.wallingfordstudios.com/",
+    "email": "info@wallingfordstudios.com?subject=Wallingford%20Studios"
+  },
+  {
+    "buildingID": "pdBTxHVf4lKlYcMuJrIC",
+    "buildingName": "Wally",
+    "buildingUrl": "http://www.wallyapartments.com/",
+    "email": "live@wallyapartments.com"
+  },
+  {
+    "buildingID": "iNrtbvyEoKksCJUFipVV",
+    "buildingName": "Fauntleroy Lofts",
+    "buildingUrl": "http://www.cornellandassociates.com/west-seattle/fauntleroy-lofts",
+    "email": "fauntleroylofts@cornellandassociates.com"
+  },
+  {
+    "buildingID": "Psd1ILJYL2UNs3Ov7FqD",
+    "buildingName": "Viridian",
+    "buildingUrl": "http://www.apartments.com/viridian-seattle-wa/dzlr4xl/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Fviridian-seattle-wa%2Fdzlr4xl%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A6917%20California%20Ave%20SW%0D%0ASeattle%2C%20WA%2098136%0D%0A%0D%0AStudio%20bd%0D%0A1%20ba%0D%0ACall%20for%20Rent"
+  },
+  {
+    "buildingID": "ejhswRkcxdiYJRQEKTWX",
+    "buildingName": "Liv Fauntleroy",
+    "buildingUrl": "http://www.cornellandassociates.com/west-seattle/4801-fauntleroy-apartments",
+    "email": "4801fauntleroy@cornellandassociates.com"
+  },
+  {
+    "buildingID": "dluc3nsuIOIdMhrJWfGN",
+    "buildingName": "Adell",
+    "buildingUrl": "http://www.apartments.com/adell-apartments-seattle-wa/d14ergl/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Fadell-apartments-seattle-wa%2Fd14ergl%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A4532%20SW%2042nd%20Ave%0D%0ASeattle%2C%20WA%2098116%0D%0A%0D%0A1%20bd%0D%0A1%20ba%0D%0A%241%2C595"
+  },
+  {
+    "buildingID": "rPZqAU2F6vW0MkLL7yWw",
+    "buildingName": "Nova",
+    "buildingUrl": "http://www.novaseattle.com/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "lIOwGibFIazpYhxGXWjX",
+    "buildingName": "Admiral Station",
+    "buildingUrl": "http://www.admiralstation.com/",
+    "email": "info@admiralstation.com"
+  },
+  {
+    "buildingID": "QzTb9E4FXW0ZDB9XJpOG",
+    "buildingName": "Alder Flats",
+    "buildingUrl": "http://www.apartments.com/alder-flats-seattle-wa/zqp3jfw/",
+    "email": "?subject=A%20Listing%20Was%20Shared%20With%20You%21&body=Check%20out%20this%20rental%20on%20Apartments.com%3A%0D%0A%0D%0Ahttps%3A%2F%2Fwww.apartments.com%2Falcove-first-hill-efficient-and-convenie-seattle-wa%2Fzqp3jfw%2F%3Futm_source%3Dshared_listing%26utm_medium%3Ddirect%0D%0A%0D%0A220%2010th%20Ave%0D%0ASeattle%2C%20WA%2098122%0D%0A%0D%0AStudio%20bd%0D%0A1%20ba%0D%0A%24845%20-%20%241%2C395"
+  },
+  {
+    "buildingID": "MPXqvhyXQ2urLactAlhB",
+    "buildingName": "Terrazza aPodments",
+    "buildingUrl": "http://www.apodment.com/seattle/terrazza/conventional/",
+    "email": "webaccessibility@entrata.com"
+  },
+  {
+    "buildingID": "eR6zKJxMfZtClCWLlsJn",
+    "buildingName": "Roystone Apartments",
+    "buildingUrl": "https://www.oriapts.com/roystone",
+    "email": "info@oriapts.com"
+  },
+  {
+    "buildingID": "hdog4P9kn8JfVKjz5keX",
+    "buildingName": "Fremont Village Apts",
+    "buildingUrl": "https://fremontvillageapts.com/",
+    "email": "fremontvillagewa-w@m.knck.io"
+  },
+  {
+    "buildingID": "7wDVNr4nqaXi3kuDGHUt",
+    "buildingName": "Kale Studios",
+    "buildingUrl": "https://www.metro-structure.com/",
+    "email": "metrostructure@outlook.com"
+  },
+  {
+    "buildingID": "cfGCFXce2CDbAera4bf5",
+    "buildingName": "Marion Studios",
+    "buildingUrl": "https://www.marioncapitolhill.com/",
+    "email": "marion-1@rent.dynasty.com"
+  },
+  {
+    "buildingID": "yURtpAvgifNthvnwussk",
+    "buildingName": "Niwa Apartments",
+    "buildingUrl": "https://www.oriapts.com/niwa/",
+    "email": "niwa@oriapts.com"
+  },
+  {
+    "buildingID": "Z7dWytVK5fVXAuHWZYPe",
+    "buildingName": "Summerstone Apts",
+    "buildingUrl": "https://summerstoneseattle.com/",
+    "email": "olivia@redsidepartners.com%20?"
+  },
+  {
+    "buildingID": "zK507YTvDBcGs2cYTAmx",
+    "buildingName": "Wayfarer",
+    "buildingUrl": "https://wayfarerseattle.com/",
+    "email": "wayfarer-w@m.knck.io"
+  }
+]
