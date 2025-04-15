@@ -1,11 +1,11 @@
-export type originalFieldsType = {
+export type OriginalFields = {
   buildingID: string;
   dateCode: string;
   IDWithDateCode: string;
   buildingName: string;
   phone: string | null;
   phone2: string | null;
-  residentialTargetedArea: string;
+  neighborhood: string;
   totalRestrictedUnits: string;
   sedu: string;
   studioUnits: string;

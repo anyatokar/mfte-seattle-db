@@ -1,13 +1,13 @@
 // README Step 5: Change this to the updated json
-import buildings from "./BuildingJSONs/buildings_nook_and_lclofts_02_05_2025.json" assert { type: "json" };
+import buildings from "./BuildingJSONs/buildings_02_24_2025.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc, Timestamp } from "firebase/firestore";
+import { OriginalFields } from "./types_and_interfaces/OriginalFields";
 import IBuilding, {
-  amiDataType,
-  amiPercentageType,
-  unitSizeType,
+  AmiData,
+  PercentAmi,
 } from "./types_and_interfaces/IBuilding";
-import { originalFieldsType } from "./types_and_interfaces/originalFieldsType";
+import { BedroomsKeyEnum } from "./types_and_interfaces/enums";
 
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_APIKEY,
@@ -28,21 +28,21 @@ let successCount = 0;
 let errorCount = 0;
 let totalCount = 0;
 
-function formatAmiData(obj: originalFieldsType): amiDataType[] {
-  const amiPercents: amiPercentageType[] = [
-    30, 40, 50, 60, 65, 70, 75, 80, 85, 90,
+function formatAmiData(obj: OriginalFields): AmiData {
+  const amiPercents: PercentAmi[] = ["30", "40", "50", "60", "65", "70", "75", "80", "85", "90"];
+
+  const unitSizes: BedroomsKeyEnum[] = [
+    BedroomsKeyEnum.MICRO,
+    BedroomsKeyEnum.STUDIO,
+    BedroomsKeyEnum.ONE_BED,
+    BedroomsKeyEnum.TWO_BED,
+    BedroomsKeyEnum.THREE_PLUS,
   ];
-  const unitSizes: unitSizeType[] = [
-    "micro",
-    "studio",
-    "oneBed",
-    "twoBed",
-    "threePlusBed",
-  ];
-  const amiData: amiDataType[] = [];
+
+  const amiData = {} as AmiData;
 
   for (let unitSize of unitSizes) {
-    const existingPercents: amiPercentageType[] = [];
+    const existingPercents: PercentAmi[] = [];
 
     for (let percent of amiPercents) {
       const key = `ami_${percent}_${unitSize}`;
@@ -53,10 +53,7 @@ function formatAmiData(obj: originalFieldsType): amiDataType[] {
     }
 
     if (existingPercents.length > 0) {
-      amiData.push({
-        unitSize: unitSize,
-        amiPercentages: existingPercents,
-      } as amiDataType);
+      amiData[unitSize] = existingPercents;
     }
   }
 
@@ -74,33 +71,37 @@ function formatAmiData(obj: originalFieldsType): amiDataType[] {
   - amiData values.
 */
 // Function to convert originalFieldsType to IBuilding
-function convertToIBuilding(obj: originalFieldsType): IBuilding {
+function convertToIBuilding(obj: OriginalFields): IBuilding {
   return {
     buildingID: obj.buildingID,
     dateCode: obj.dateCode,
     IDWithDateCode: obj.IDWithDateCode,
     buildingName: obj.buildingName,
-    phone: obj.phone,
-    phone2: obj.phone2,
-    residentialTargetedArea: obj.residentialTargetedArea,
-    totalRestrictedUnits: obj.totalRestrictedUnits,
-    sedu: obj.sedu === "0" ? 0 : obj.sedu,
-    studioUnits: obj.studioUnits === "0" ? 0 : obj.studioUnits,
-    oneBedroomUnits: obj.oneBedroomUnits === "0" ? 0 : obj.oneBedroomUnits,
-    twoBedroomUnits: obj.twoBedroomUnits === "0" ? 0 : obj.twoBedroomUnits,
-    threePlusBedroomUnits:
-      obj.threePlusBedroomUnits === "0" ? 0 : obj.threePlusBedroomUnits,
-    urlForBuilding: obj.urlForBuilding,
-    lat: parseFloat(obj.lat),
-    lng: parseFloat(obj.lng),
-    streetNum: obj.streetNum,
-    street: obj.street,
-    city: obj.city,
-    state: obj.state,
-    zip: obj.zip,
+    address: {
+      streetNum: obj.streetNum,
+      street: obj.street,
+      city: obj.city,
+      state: obj.state,
+      zip: obj.zip,
+      neighborhood: obj.neighborhood,
+      streetAddress: obj.streetAddress,
+      lat: parseFloat(obj.lat),
+      lng: parseFloat(obj.lng),
+    },
+    contact: {
+      phone: obj.phone,
+      phone2: obj.phone2,
+      urlForBuilding: obj.urlForBuilding,
+    },
+    searchFields: {
+      buildingName: obj.buildingName,
+      neighborhood: obj.neighborhood,
+      streetAddress: obj.streetAddress,
+      zip: obj.zip,
+  },
+
     updatedTimestamp: Timestamp.fromDate(new Date()),
     amiData: formatAmiData(obj),
-    streetAddress: obj.streetAddress,
   };
 }
 
@@ -108,7 +109,7 @@ function convertToIBuilding(obj: originalFieldsType): IBuilding {
 async function processBuilding(buildingData: IBuilding) {
   try {
     await setDoc(
-      doc(db, "buildingsTEST", buildingData.buildingID),
+      doc(db, "buildings_3", buildingData.buildingID),
       buildingData
     );
     console.log(
@@ -132,7 +133,7 @@ async function processBuilding(buildingData: IBuilding) {
 }
 
 // Process all buildings
-async function processAllBuildings(buildings: originalFieldsType[]) {
+async function processAllBuildings(buildings: OriginalFields[]): Promise<void> {
   const buildingPromises = buildings.map(async (obj) => {
     const buildingData = convertToIBuilding(obj);
     await processBuilding(buildingData);
