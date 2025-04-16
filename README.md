@@ -1,5 +1,5 @@
 1. Update Google Sheets tab if needed (for lat/long, can use Geocode G Sheets extension)
-2. Export to JSON (can use Download JSON G Sheets extension)
+2. Export to JSON (can use [Sheets To JSON extension](https://chromewebstore.google.com/detail/sheets-to-json/enmkalgdnmcaljdfkojckdbhkjmffmoa))
 3. Add the JSON to this repo's BuildingJSONs directory
 4. Make sure there are no null buildingIDs - happens if there are blanks in the spreadsheet.
 5. Update export filename in import file

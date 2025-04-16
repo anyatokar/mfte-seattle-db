@@ -11,7 +11,8 @@
   },
   "scripts": {
     "import-data": "npx tsx src/import.ts",
-    "prettier": "prettier . -w"
+    "prettier": "prettier . -w",
+    "check-websites": "npx tsx checkWebsites.ts"
   },
   "eslintConfig": {
     "extends": [

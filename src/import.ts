@@ -1,5 +1,5 @@
 // README Step 5: Change this to the updated json
-import buildings from "./BuildingJSONs/buildings_02_24_2025.json" assert { type: "json" };
+import buildings from "./BuildingJSONs/buildings_04_16_2025.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc, Timestamp } from "firebase/firestore";
 import { OriginalFields } from "./types_and_interfaces/OriginalFields";
