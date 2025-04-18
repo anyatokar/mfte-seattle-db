@@ -29,7 +29,18 @@ let errorCount = 0;
 let totalCount = 0;
 
 function formatAmiData(obj: OriginalFields): AmiData {
-  const amiPercents: PercentAmi[] = ["30", "40", "50", "60", "65", "70", "75", "80", "85", "90"];
+  const amiPercents: PercentAmi[] = [
+    "30",
+    "40",
+    "50",
+    "60",
+    "65",
+    "70",
+    "75",
+    "80",
+    "85",
+    "90",
+  ];
 
   const unitSizes: BedroomsKeyEnum[] = [
     BedroomsKeyEnum.MICRO,
@@ -98,7 +109,7 @@ function convertToIBuilding(obj: OriginalFields): IBuilding {
       neighborhood: obj.neighborhood,
       streetAddress: obj.streetAddress,
       zip: obj.zip,
-  },
+    },
 
     updatedTimestamp: Timestamp.fromDate(new Date()),
     amiData: formatAmiData(obj),
@@ -108,10 +119,7 @@ function convertToIBuilding(obj: OriginalFields): IBuilding {
 // Function to handle Firestore operations
 async function processBuilding(buildingData: IBuilding) {
   try {
-    await setDoc(
-      doc(db, "buildings_3", buildingData.buildingID),
-      buildingData
-    );
+    await setDoc(doc(db, "buildings_3", buildingData.buildingID), buildingData);
     console.log(
       "Successfully set building doc with BuildingID: ",
       buildingData.buildingID

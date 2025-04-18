@@ -34,10 +34,10 @@ export type Contact = {
 };
 
 type SearchFields = {
-  buildingName: string,
-  neighborhood: string,
-  streetAddress: string,
-  zip: string,
+  buildingName: string;
+  neighborhood: string;
+  streetAddress: string;
+  zip: string;
 };
 
 export default interface IBuilding {
@@ -49,5 +49,5 @@ export default interface IBuilding {
   amiData: AmiData;
   address: Address;
   contact: Contact;
-  searchFields: SearchFields
+  searchFields: SearchFields;
 }
