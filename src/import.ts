@@ -1,5 +1,5 @@
 // README Step 5: Change this to the updated json
-import buildings from "./BuildingJSONs/buildings_04_16_2025.json" assert { type: "json" };
+import buildings from "./BuildingJSONs/buildings_06_3_2025.json" assert { type: "json" };
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, setDoc, Timestamp } from "firebase/firestore";
 import { OriginalFields } from "./types_and_interfaces/OriginalFields";
@@ -86,11 +86,10 @@ function convertToIBuilding(obj: OriginalFields): IBuilding {
   return {
     buildingID: obj.buildingID,
     dateCode: obj.dateCode,
-    IDWithDateCode: obj.IDWithDateCode,
+    isEnding: !!obj.isEnding,
+    isAgeRestricted: !!obj.isAgeRestricted,
     buildingName: obj.buildingName,
     address: {
-      streetNum: obj.streetNum,
-      street: obj.street,
       city: obj.city,
       state: obj.state,
       zip: obj.zip,
@@ -119,7 +118,7 @@ function convertToIBuilding(obj: OriginalFields): IBuilding {
 // Function to handle Firestore operations
 async function processBuilding(buildingData: IBuilding) {
   try {
-    await setDoc(doc(db, "buildings_3", buildingData.buildingID), buildingData);
+    await setDoc(doc(db, "buildings_5", buildingData.buildingID), buildingData);
     console.log(
       "Successfully set building doc with BuildingID: ",
       buildingData.buildingID

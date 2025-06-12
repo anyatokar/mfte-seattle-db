@@ -1,22 +1,16 @@
 export type OriginalFields = {
   buildingID: string;
   dateCode: string;
+  isEnding: string;
+  isAgeRestricted: string;
   IDWithDateCode: string;
   buildingName: string;
   phone: string | null;
   phone2: string | null;
   neighborhood: string;
-  totalRestrictedUnits: string;
-  sedu: string;
-  studioUnits: string;
-  oneBedroomUnits: string;
-  twoBedroomUnits: string;
-  threePlusBedroomUnits: string;
   urlForBuilding: string;
   lat: string;
   lng: string;
-  streetNum: string;
-  street: string;
   city: string;
   state: string;
   zip: string;

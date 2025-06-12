@@ -4,7 +4,10 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "firebase": "^10.7.0"
+    "csv-parser": "^3.2.0",
+    "fast-csv": "^5.0.2",
+    "firebase": "^10.7.0",
+    "uuid": "^11.1.0"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -12,7 +15,9 @@
   "scripts": {
     "import-data": "npx tsx src/import.ts",
     "prettier": "prettier . -w",
-    "check-websites": "npx tsx checkWebsites.ts"
+    "check-websites": "npx tsx checkWebsites.ts",
+    "compare": "npx tsx compare-csv.ts",
+    "new": "npx tsx generateNewList.ts"
   },
   "eslintConfig": {
     "extends": [
@@ -33,6 +38,7 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "^22.14.1",
     "prettier": "3.2.5"
   }
 }

@@ -16,8 +16,6 @@ export type PercentAmi =
 export type AmiData = { [key in BedroomsKeyEnum]: PercentAmi[] };
 
 export type Address = {
-  streetNum: string;
-  street: string;
   city: string;
   state: string;
   zip: string;
@@ -43,11 +41,12 @@ type SearchFields = {
 export default interface IBuilding {
   buildingID: string;
   dateCode: string;
-  IDWithDateCode: string;
   buildingName: string;
   updatedTimestamp: Timestamp;
   amiData: AmiData;
   address: Address;
   contact: Contact;
   searchFields: SearchFields;
+  isEnding: boolean;
+  isAgeRestricted: boolean;
 }
