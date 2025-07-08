@@ -3,7 +3,6 @@ export type OriginalFields = {
   dateCode: string;
   isEnding: string;
   isAgeRestricted: string;
-  IDWithDateCode: string;
   buildingName: string;
   phone: string | null;
   phone2: string | null;
